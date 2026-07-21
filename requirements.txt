@@ -1,0 +1,41 @@
+# Core LangChain
+langchain==0.3.26
+langchain-community==0.3.27
+langchain-core==0.3.70
+
+# LangGraph (Stateful Multi-Agent Orchestration)
+langgraph==0.5.4
+
+# LLM Provider (Google Gemini)
+langchain-google-genai==2.1.8
+
+# Vector Store
+chromadb==1.0.15
+langchain-chroma==0.2.4
+
+# PDF Loader
+pypdf==4.2.0
+
+# Environment & Utilities
+python-dotenv==1.0.1
+PyYAML==6.0.2
+tenacity==8.2.3
+
+# Token counting
+tiktoken==0.7.0
+
+# Optional UI Frameworks
+streamlit==1.36.0
+gradio==4.37.2
+
+# Google Gemini dependency
+google-ai-generativelanguage==0.6.18
+
+# Embedding / HF integration
+sentence-transformers==5.1.1
+langchain-huggingface==0.3.1
+transformers==4.55.0
+torch==2.7.1
+
+# HuggingFace datasets (for E1 calibration data fetch)
+datasets>=2.20.0

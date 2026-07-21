@@ -1,0 +1,121 @@
+# ==========================================
+# 1. ENVIRONMENT & PYTHON
+# ==========================================
+.env
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ==========================================
+# 2. SYSTEM & IDE FILES
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ==========================================
+# 3. VECTOR DATABASES & LOCAL DATA
+# ==========================================
+data/chroma/
+*.db
+*.sqlite3
+
+# ==========================================
+# 4. DYNAMIC OUTPUTS & LOGS (Keep structure)
+# ==========================================
+logs/*
+!logs/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
+
+analysis/outputs/*
+!analysis/outputs/.gitkeep
+
+analysis/plots/outputs/*
+!analysis/plots/outputs/.gitkeep
+
+# ==========================================
+# 5. TEMPORARY FILES & EXTENSIONS
+# ==========================================
+*.log
+*.jsonl
+*.tmp
+*.bak
+*~
+.ipynb_checkpoints/
+
+# ==========================================
+# 6. DEVELOPER, LEGACY & SCRATCHPADS
+# ==========================================
+*.backup
+*_new
+scripts/_*.py
+scripts/_*.ps1
+scripts/analysis/_*.py
+sitecustomize.py
+
+# ==========================================
+# 7. ARCHIVES, DRAFTS & OLD DOCUMENTATION
+# ==========================================
+docs/03_summaries/
+docs/04_checklists/
+docs/05_diagrams/
+docs/06_drafts/
+docs/06_poczekalnia/
+docs/archive_legacy/
+docs/archive/
+log_archive/
+data_archive/
+docs/kes_metrics_implementation_plan.md
+
+# ==========================================
+# 8. WORK IN PROGRESS & UNPUBLISHED MODULES
+# ==========================================
+figures/article_3/
+paper_supplementary/article_3_apg/
+src/apg/
+
+# =========================================
+# 9. CUSTOM SCRIPTS & EXPERIMENTAL BATCHES
+# =========================================
+scripts/analysis/ablation_validator_iq.py
+scripts/analysis/evaluate_provenance_batch.py
+scripts/analysis/sweep_provenance_thresholds.py
+scripts/analysis/build_annotation_sheet.py
+
+# Debug, ad-hoc, and quick test scripts
+_*
+debug_*.py
+quick_*.py
+scripts/audit_cc_fields.py
+
+# Shell scripts and batch processing
+*.ps1
+*.ps1_new
+
+# Hardcoded analysis scripts
+scripts/analysis/compare_all_6_tests.py
+scripts/analysis/recalculate_all_tests.py
+scripts/analysis/write_scqa8_report.py
+
+# Output folders, logs, and raw data
+logs/
+analysis/outputs/
+
+# Legacy & obsolete experiment scripts
+scripts/legacy/
+
+# Legacy integration tests with obsolete import paths
+tests/integration/test_conceptual_coverage_conditions.py
+tests/integration/test_identity_drift_long_debate.py

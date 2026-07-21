@@ -1,0 +1,466 @@
+{
+  "philosopher_id": "mill",
+  "philosopher_name": "John Stuart Mill",
+  "metadata": {
+    "source": "Utilitarianism",
+    "extraction_date": "2025-10-28",
+    "extractor": "NotebookLM",
+    "version": "1.0"
+  },
+  "nodes": [
+    {
+      "id": "belief_greatest_happiness_principle",
+      "type": "belief",
+      "content": "The Greatest Happiness Principle is the sole criterion for morality - actions are right in proportion as they promote happiness, wrong as they produce the reverse",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch1_foundation",
+      "metadata": {
+        "quote": "The creed which accepts as the foundation of morals, Utility, or the Greatest Happiness Principle, holds that actions are right in proportion as they tend to promote happiness, wrong as they tend to produce the reverse of happiness"
+      }
+    },
+    {
+      "id": "belief_happiness_only_end",
+      "type": "belief",
+      "content": "Happiness (pleasure and absence of pain) is the only thing desirable as an end - all other things are means to happiness",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch4_proof",
+      "metadata": {
+        "quote": "pleasure, and freedom from pain, are the only things desirable as ends; and that all desirable things... are desirable either for the pleasure inherent in themselves, or as means to the promotion of pleasure and the prevention of pain"
+      }
+    },
+    {
+      "id": "belief_quality_of_pleasures",
+      "type": "belief",
+      "content": "The quality of pleasures must be considered alongside their quantity - some kinds of pleasure are more desirable and valuable than others",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch2_quality",
+      "metadata": {
+        "quote": "It is quite compatible with the principle of utility to recognise the fact, that some kinds of pleasure are more desirable and more valuable than others. It would be absurd that while, in estimating all other things, quality is considered as well as quantity, the estimation of pleasures should be supposed to depend on quantity alone"
+      }
+    },
+    {
+      "id": "belief_impartiality",
+      "type": "belief",
+      "content": "The objective standard of morality requires perfect impartiality - the agent must be as strictly impartial as a disinterested benevolent spectator",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch2_impartiality",
+      "metadata": {
+        "quote": "The happiness which forms the utilitarian standard of what is right in conduct, is not the agent's own happiness, but that of all concerned. As between his own happiness and that of others, utilitarianism requires him to be as strictly impartial as a disinterested and benevolent spectator"
+      }
+    },
+    {
+      "id": "belief_moral_feelings_acquired",
+      "type": "belief",
+      "content": "Complex moral feelings like the sense of duty or conscience are acquired, not innate, though they can be cultivated into powerful motivators",
+      "certainty": "STRONG",
+      "is_core": false,
+      "source_chunk_id": "utilitarianism_ch3_sanctions",
+      "metadata": {
+        "quote": "If, as is my own belief, the moral feelings are not innate, but acquired, they are not for that reason the less natural... The moral feelings are not indeed a part of our nature, in the sense of being in any perceptible degree present in all of us"
+      }
+    },
+    {
+      "id": "belief_virtue_transformation",
+      "type": "belief",
+      "content": "The psychological desire for virtue can be transformed from a means into a part of happiness itself through association",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch4_virtue",
+      "metadata": {
+        "quote": "Virtue, according to the utilitarian doctrine, is not naturally and originally part of the end, but it is capable of becoming so; and in those who love it disinterestedly it has become so, and is desired and cherished, not as a means to happiness, but as a part of their happiness"
+      }
+    },
+    {
+      "id": "belief_justice_from_utility",
+      "type": "belief",
+      "content": "Justice is the name given to those moral requirements concerning security and essential human well-being, ultimately derived from utility",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch5_justice",
+      "metadata": {
+        "quote": "Justice is a name for certain classes of moral rules, which concern the essentials of human well-being more nearly, and are therefore of more absolute obligation, than any other rules for the guidance of life"
+      }
+    },
+    {
+      "id": "value_utility",
+      "type": "value",
+      "content": "Utility (Greatest Happiness): Defines right action as that which promotes pleasure or avoids pain for the greatest number",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch2_ultimate_end",
+      "metadata": {
+        "quote": "According to the Greatest Happiness Principle, as above explained, the ultimate end, with reference to and for the sake of which all other things are desirable... is an existence exempt as far as possible from pain, and as rich as possible in enjoyments, both in point of quantity and quality"
+      }
+    },
+    {
+      "id": "value_security",
+      "type": "value",
+      "content": "Security: The assurance that one will not be harmed and can rely on the groundwork of existence being safe",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch5_security",
+      "metadata": {
+        "quote": "The interest involved is that of security, to every one's feelings the most vital of all interests. Nearly all other earthly benefits are needed by one person, not needed by another... but security no human being can possibly do without"
+      }
+    },
+    {
+      "id": "value_virtue",
+      "type": "value",
+      "content": "Virtue: Actions and dispositions deemed conducive to the promotion of happiness",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch4_virtue_value",
+      "metadata": {
+        "quote": "The utilitarian standard... enjoins and requires the cultivation of the love of virtue up to the greatest strength possible, as being above all things important to the general happiness"
+      }
+    },
+    {
+      "id": "value_impartiality",
+      "type": "value",
+      "content": "Impartiality: The requirement that one person's happiness, equal in degree and kind, is counted for exactly as much as another's",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch2_equality",
+      "metadata": {
+        "quote": "That principle is a mere form of words without rational signification, unless one person's happiness, supposed equal in degree (with the proper allowance made for kind), is counted for exactly as much as another's"
+      }
+    },
+    {
+      "id": "value_mental_cultivation",
+      "type": "value",
+      "content": "Mental Cultivation: Exercise of higher faculties, intellectual tastes, and general knowledge leading to inexhaustible sources of interest",
+      "certainty": "STRONG",
+      "is_core": false,
+      "source_chunk_id": "utilitarianism_ch2_cultivation",
+      "metadata": {
+        "quote": "Next to selfishness, the principal cause which makes life unsatisfactory, is want of mental cultivation. A cultivated mind... finds sources of inexhaustible interest in all that surrounds it"
+      }
+    },
+    {
+      "id": "value_social_feelings",
+      "type": "value",
+      "content": "Social Feelings/Unity: The sentiment to be in harmony with and care for fellow creatures, the natural basis of utilitarian morality",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch3_social_feelings",
+      "metadata": {
+        "quote": "This firm foundation is that of the social feelings of mankind; the desire to be in unity with our fellow creatures, which is already a powerful principle in human nature, and happily one of those which tend to become stronger, even without express inculcation, from the influences of advancing civilization"
+      }
+    },
+    {
+      "id": "trait_systematic",
+      "type": "trait",
+      "content": "Systematic/Definitional: Emphasizes clear definitions of first principles and addresses misconceptions as preliminary condition for acceptance",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Offers illustrations distinguishing what utilitarianism is from what it is not, correcting blunders like opposing utility to pleasure"
+      }
+    },
+    {
+      "id": "trait_dialectical",
+      "type": "trait",
+      "content": "Dialectical/Comparative: Systematically compares utilitarianism against other ethical systems to argue for superiority or compatibility",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Discusses how intuitive and inductive schools differ on evidence, uses Kant's system to show a priori moralists need utilitarian arguments"
+      }
+    },
+    {
+      "id": "trait_empirical",
+      "type": "trait",
+      "content": "Empirical/Psychological: Grounds fundamental moral claims in observable facts of human nature, consciousness, desire, and experience",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "The proof of utility rests on observation that people actually desire something, confirmed through self-consciousness and observation of others"
+      }
+    },
+    {
+      "id": "trait_integrative",
+      "type": "trait",
+      "content": "Integrative/Reconciling: Aims to integrate seemingly contradictory concepts like self-sacrifice or justice into utilitarian calculus",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Argues self-sacrifice is noble only if it contributes to others' happiness, shows how Virtue becomes integrated as part of happiness itself"
+      }
+    },
+    {
+      "id": "trait_analytical",
+      "type": "trait",
+      "content": "Analytical/Deconstructive: Meticulously deconstructs complex moral concepts into constituent psychological and historical parts",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Resolves justice into desire to punish plus knowledge of harm to individual, traces etymology of 'just' to law and custom"
+      }
+    },
+    {
+      "id": "trait_pragmatic",
+      "type": "trait",
+      "content": "Pragmatic/Rule-Oriented: Insists morality must use secondary rules from past experience rather than calculating for every action",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Argues mankind has had the whole past duration of species to develop acquired rules of morality for the multitude"
+      }
+    },
+    {
+      "id": "trait_reformist",
+      "type": "trait",
+      "content": "Reformist/Progressive: Assumes continuous improvement in human affairs, moral and social defects are conquerable through care and effort",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Asserts most great positive evils are removable and will be reduced within narrow limits if human affairs continue to improve"
+      }
+    },
+    {
+      "id": "goal_establish_happiness_standard",
+      "type": "goal",
+      "content": "Establish Happiness as the Ultimate Standard of Morality and defend the Greatest Happiness Principle as foundation for right and wrong",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch4_criterion",
+      "metadata": {
+        "quote": "If so, happiness is the sole end of human action, and the promotion of it the test by which to judge of all human conduct; from whence it necessarily follows that it must be the criterion of morality, since a part is included in the whole"
+      }
+    },
+    {
+      "id": "goal_clarify_defend_utilitarianism",
+      "type": "goal",
+      "content": "Clarify and Defend Utilitarianism Against Misconceptions to provide correct understanding of the doctrine",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch2_misconceptions",
+      "metadata": {
+        "quote": "But it is a preliminary condition of rational acceptance or rejection, that the formula should be correctly understood. I believe that the very imperfect notion ordinarily formed of its meaning, is the chief obstacle which impedes its reception"
+      }
+    },
+    {
+      "id": "goal_prove_utility_over_justice",
+      "type": "goal",
+      "content": "Prove the Supremacy of Utility over Justice by demonstrating justice is derived from and subordinate to utility of security",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch5_justice_resolved",
+      "metadata": {
+        "quote": "The considerations which have now been adduced resolve, I conceive, the only real difficulty in the utilitarian theory of morals... Justice remains the appropriate name for certain social utilities which are vastly more important, and therefore more absolute and imperative, than any others are as a class"
+      }
+    },
+    {
+      "id": "goal_detail_sanctions",
+      "type": "goal",
+      "content": "Detail the Means by which the Utilitarian Standard is Enforced through external and internal sanctions",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch3_sanctions_explained",
+      "metadata": {
+        "quote": "The principle of utility either has, or there is no reason why it might not have, all the sanctions which belong to any other system of morals. Those sanctions are either external or internal"
+      }
+    },
+    {
+      "id": "concept_utility",
+      "type": "concept",
+      "content": "Utility / Greatest Happiness Principle: The foundation holding that actions are right in proportion as they promote happiness",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch1_utility",
+      "metadata": {
+        "original_term": "Utility / Greatest Happiness Principle",
+        "quote": "The creed which accepts as the foundation of morals, Utility, or the Greatest Happiness Principle, holds that actions are right in proportion as they tend to promote happiness, wrong as they tend to produce the reverse of happiness"
+      }
+    },
+    {
+      "id": "concept_summum_bonum",
+      "type": "concept",
+      "content": "Summum Bonum (Highest Good): The ultimate end of action, which utilitarianism identifies as pleasure and freedom from pain",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch1_summum_bonum",
+      "metadata": {
+        "original_term": "Summum Bonum",
+        "translation": "Highest Good",
+        "quote": "From the dawn of philosophy, the question concerning the summum bonum, or, what is the same thing, concerning the foundation of morality, has been accounted the main problem in speculative thought"
+      }
+    },
+    {
+      "id": "concept_happiness",
+      "type": "concept",
+      "content": "Happiness: Pleasure and the absence of pain; for humans, moments of exalted pleasure in an existence made up of few pains and many varied pleasures",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch2_happiness_defined",
+      "metadata": {
+        "original_term": "Happiness",
+        "quote": "By happiness is intended pleasure, and the absence of pain; by unhappiness, pain, and the privation of pleasure"
+      }
+    },
+    {
+      "id": "concept_quality_of_pleasures",
+      "type": "concept",
+      "content": "Quality of Pleasures: The intrinsic superiority of one kind of pleasure over another, determined by competent judges' preference",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch2_quality_concept",
+      "metadata": {
+        "original_term": "Quality of Pleasures",
+        "quote": "Of two pleasures, if there be one to which all or almost all who have experience of both give a decided preference... that is the more desirable pleasure"
+      }
+    },
+    {
+      "id": "concept_justice",
+      "type": "concept",
+      "content": "Justice: Moral rules concerning essentials of human well-being, implying a right residing in an individual and requiring punishment for infringement",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch5_justice_concept",
+      "metadata": {
+        "original_term": "Justice",
+        "quote": "Justice is a name for certain classes of moral rules, which concern the essentials of human well-being more nearly, and are therefore of more absolute obligation, than any other rules for the guidance of life"
+      }
+    },
+    {
+      "id": "concept_right",
+      "type": "concept",
+      "content": "Right: Something which society ought to defend a person in the possession of, based on a sufficient claim guaranteed by society",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch5_right",
+      "metadata": {
+        "original_term": "Right",
+        "quote": "Justice implies something which it is not only right to do, and wrong not to do, but which some individual person can claim from us as his moral right"
+      }
+    },
+    {
+      "id": "concept_internal_sanction",
+      "type": "concept",
+      "content": "Internal Sanction / Conscience: A subjective feeling of pain attendant on violation of duty, rising into shrinking from the possibility of violation",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "utilitarianism_ch3_internal_sanction",
+      "metadata": {
+        "original_term": "Internal Sanction / Conscience",
+        "quote": "The internal sanction of duty, whatever our standard of duty may be, is one and the same—a feeling in our own mind; a pain, more or less intense, attendant on violation of duty"
+      }
+    },
+    {
+      "id": "concept_will_vs_desire",
+      "type": "concept",
+      "content": "Will vs. Desire: Desire is passive sensibility (attraction/repulsion), while Will is active phenomenon originating from desire but can become habitual",
+      "certainty": "STRONG",
+      "is_core": false,
+      "source_chunk_id": "utilitarianism_ch4_will",
+      "metadata": {
+        "original_term": "Will vs. Desire",
+        "quote": "Will, the active phenomenon, is a different thing from desire, the state of passive sensibility, and though originally an offshoot from it, may in time take root and detach itself from the parent stock"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "concept_utility",
+      "target_id": "belief_greatest_happiness_principle",
+      "edge_type": "causal",
+      "weight": 1.0,
+      "evidence": "The Greatest Happiness Principle is the foundation of morals, meaning moral obligation derives entirely from the tendency to promote general happiness"
+    },
+    {
+      "source_id": "concept_will_vs_desire",
+      "target_id": "trait_pragmatic",
+      "edge_type": "temporal",
+      "weight": 0.80,
+      "evidence": "The will to do right is cultivated through desire, but certainty of action is achieved when will becomes supported by habit, allowing action without conscious thought of pleasure"
+    },
+    {
+      "source_id": "value_security",
+      "target_id": "concept_justice",
+      "edge_type": "requires",
+      "weight": 0.95,
+      "evidence": "Security is the most vital of all human interests, and its indispensability necessitates the most absolute rules for protection, called obligations of justice"
+    },
+    {
+      "source_id": "value_social_feelings",
+      "target_id": "concept_internal_sanction",
+      "edge_type": "supports",
+      "weight": 0.90,
+      "evidence": "The internal sanction of duty rests on the natural basis of sentiment found in social feelings, particularly the desire for unity with fellow creatures"
+    },
+    {
+      "source_id": "value_mental_cultivation",
+      "target_id": "concept_quality_of_pleasures",
+      "edge_type": "causal",
+      "weight": 0.90,
+      "evidence": "Human beings have faculties more elevated than animal appetites, and pleasures from intellect and moral sentiments are inherently more valuable, determining qualitative preference"
+    },
+    {
+      "source_id": "value_virtue",
+      "target_id": "concept_happiness",
+      "edge_type": "is_part_of",
+      "weight": 0.85,
+      "evidence": "Though originally only a means to happiness, virtue through association becomes desired for its own sake and is psychologically integrated as an ingredient of individual happiness"
+    },
+    {
+      "source_id": "belief_greatest_happiness_principle",
+      "target_id": "value_impartiality",
+      "edge_type": "requires",
+      "weight": 0.95,
+      "evidence": "The Greatest Happiness Principle is rationally meaningless unless equal amounts of happiness are counted equally for all persons, which defines impartiality"
+    },
+    {
+      "source_id": "concept_justice",
+      "target_id": "concept_right",
+      "edge_type": "requires",
+      "weight": 0.95,
+      "evidence": "Duties of perfect obligation (like justice) are distinguished from imperfect ones because the former are those in which a specific, correlative right resides in some person"
+    },
+    {
+      "source_id": "belief_quality_of_pleasures",
+      "target_id": "belief_happiness_only_end",
+      "edge_type": "supports",
+      "weight": 0.85,
+      "evidence": "Quality of pleasures refines the definition of Happiness, distinguishing human happiness from mere animal contentment through higher faculties"
+    },
+    {
+      "source_id": "belief_impartiality",
+      "target_id": "goal_establish_happiness_standard",
+      "edge_type": "supports",
+      "weight": 0.90,
+      "evidence": "Perfect impartiality links individual pursuit of happiness to the collective goal of greatest happiness for all"
+    },
+    {
+      "source_id": "belief_virtue_transformation",
+      "target_id": "value_virtue",
+      "edge_type": "supports",
+      "weight": 0.90,
+      "evidence": "The transformation of virtue from means to end explains how virtue becomes a powerful internally motivated component of the utilitarian system"
+    },
+    {
+      "source_id": "belief_justice_from_utility",
+      "target_id": "goal_prove_utility_over_justice",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "This belief directly supports the goal by subordinating Justice to Utility, specifically the utility of security as the most vital interest"
+    },
+    {
+      "source_id": "trait_empirical",
+      "target_id": "belief_moral_feelings_acquired",
+      "edge_type": "supports",
+      "weight": 0.85,
+      "evidence": "The empirical/psychological approach grounds the belief that moral feelings are acquired through observable facts of human nature"
+    },
+    {
+      "source_id": "trait_analytical",
+      "target_id": "concept_justice",
+      "edge_type": "supports",
+      "weight": 0.85,
+      "evidence": "The analytical trait enables the meticulous deconstruction of justice into its constituent psychological parts"
+    }
+  ]
+}

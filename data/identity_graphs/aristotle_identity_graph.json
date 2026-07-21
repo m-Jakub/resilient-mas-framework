@@ -1,0 +1,485 @@
+{
+  "philosopher_id": "aristotle",
+  "philosopher_name": "Aristotle",
+  "metadata": {
+    "source": "Nicomachean Ethics",
+    "extraction_date": "2025-10-28",
+    "extractor": "NotebookLM",
+    "version": "1.0"
+  },
+  "nodes": [
+    {
+      "id": "belief_teleology",
+      "type": "belief",
+      "content": "All human action aims at some good (Teleology). Every art, science, and activity is goal-oriented, intending to achieve some purpose perceived as beneficial.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_teleology",
+      "metadata": {
+        "quote": "Every art, and every science reduced to a teachable form, and in like manner every action and moral choice, aims, it is thought, at some good: for which reason a common and by no means a bad description of the Chief Good is, 'that which all things aim at.'",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "belief_happiness_ultimate_end",
+      "type": "belief",
+      "content": "Happiness (Eudaimonia) is the single ultimate End. There is one final, self-sufficient end desired purely for its own sake, and with a view to which we desire everything else.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_eudaimonia_end",
+      "metadata": {
+        "quote": "Since then of all things which may be done there is some one End which we desire for its own sake, and with a view to which we desire everything else;... this plainly must be the Chief Good, i.e. the best thing of all.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "belief_happiness_is_activity",
+      "type": "belief",
+      "content": "Happiness is activity in accordance with Excellence. The Chief Good is defined as 'a working of the Soul in the way of Excellence,' particularly the best and most perfect Excellence, achieved over a complete life.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_happiness_activity",
+      "metadata": {
+        "quote": "then the Good of Man comes to be 'a working of the Soul in the way of Excellence,' or, if Excellence admits of degrees, in the way of the best and most perfect Excellence.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "belief_virtue_is_mean",
+      "type": "belief",
+      "content": "Moral Virtue is a Mean state (Mesotēs). Right action involves achieving a relative mean (adjustment or balance) between two extremes: one of excess and one of defect.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "ne_doctrine_mean",
+      "metadata": {
+        "quote": "To do (or to feel) what is right in a given situation is to do or to feel just the amount required—neither more nor less: to do wrong is to do or to feel too much or too little—to fall short of or over-shoot, 'a mean' determined by the situation.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "belief_virtue_vice_voluntary",
+      "type": "belief",
+      "content": "Virtue and Vice are Voluntary. Moral character (being good or bad) is within an individual's power because actions resulting in habits originate in the agent, and where one can act, one can also forbear acting.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_voluntary",
+      "metadata": {
+        "quote": "wherever it is in our power to do it is also in our power to forbear doing, and vice versa: therefore if the doing (being in a given case creditable) is in our power, so too is the forbearing... then the being good or vicious characters is in our power.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "belief_wisdom_virtue_interdependent",
+      "type": "belief",
+      "content": "Practical Wisdom and Moral Virtue are interdependent. True goodness requires both the right intellectual determination of the means (Phronēsis) and the right moral aim (Virtue of Character); one cannot exist fully without the other.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_phronesis_virtue",
+      "metadata": {
+        "quote": "Thus true practical wisdom and true goodness of character are interdependent; neither is genuinely possible or 'completely' present without the other.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "belief_ethics_generalities",
+      "type": "belief",
+      "content": "Ethical rules are generalities, not exact laws. The subject of human conduct is not governed by necessary and uniform laws, so ethical rules are general principles stating probabilities that always admit of exceptions.",
+      "certainty": "STRONG",
+      "is_core": false,
+      "source_chunk_id": "ne_generalities",
+      "metadata": {
+        "quote": "The subject-matter of Human Conduct is not governed by necessary and uniform laws... At their very best, practical rules state probabilities, not certainties; a relative constancy of connection is all that exists, but it is enough to serve as a guide in life.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "value_happiness",
+      "type": "value",
+      "content": "Happiness (Eudaimonia): The ultimate, self-sufficient goal of all practical action, desired purely for its own sake. It is the universal end that organizes all human choices.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_eudaimonia_value",
+      "metadata": {
+        "quote": "And of this nature Happiness is mostly thought to be, for this we choose always for its own sake, and never with a view to anything further.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "value_excellence",
+      "type": "value",
+      "content": "Excellence (Aretē): Developed perfections or 'goodnesses' of the soul, intellectual or moral, that enable a person to perform their distinctive function well. Good character is the indispensable condition and chief determinant of happiness.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_arete_value",
+      "metadata": {
+        "quote": "The production of good character is not the end of either individual or state action: that is the aim of the one and the other because good character is the indispensable condition and chief determinant of happiness, itself the goal of all human doing.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "value_practical_wisdom",
+      "type": "value",
+      "content": "Practical Wisdom (Phronēsis): An Intellectual Excellence involving a 'state of mind true, conjoined with Reason, and apt to Do, having for its object those things which are good or bad for Man'. Essential for moral action.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_phronesis_value",
+      "metadata": {
+        "quote": "Thus true practical wisdom and true goodness of character are interdependent; neither is genuinely possible or 'completely' present without the other.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "value_justice",
+      "type": "value",
+      "content": "Justice (Dikē): Perfect virtue as exercised toward one's neighbor, concerned with lawful and equal dealings within the community. Considered 'perfect Virtue' in the fullest sense.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_justice_value",
+      "metadata": {
+        "quote": "Now this Justice is in fact perfect Virtue, yet not simply so but as exercised towards one's neighbour: and for this reason Justice is thought oftentimes to be the best of the Virtues.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "value_mean",
+      "type": "value",
+      "content": "The Mean (Mesotēs): The morally right amount of feeling or action, avoiding the extremes of excess and defect, determined by reason and relative to the situation/agent.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_mean_value",
+      "metadata": {
+        "quote": "Virtue then is 'a state apt to exercise deliberate choice, being in the relative mean, determined by reason, and as the man of practical wisdom would determine.'",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "value_friendship",
+      "type": "value",
+      "content": "Friendship (Philia): Mutual affection that is reciprocated and known, based on utility, pleasure, or, ideally, shared goodness. 'Most necessary for life' and 'the bond of Social Communities'.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "ne_philia_value",
+      "metadata": {
+        "quote": "Friendship seems to be the bond of Social Communities, and legislators seem to be more anxious to secure it than Justice even.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "trait_systematic",
+      "type": "trait",
+      "content": "Systematic/Integrative: Placing the current subject within a larger, unified philosophical structure, ensuring coherence between different fields of inquiry.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "metadata": {
+        "description": "The ethical work is introduced as 'one half of a single treatise of which his Politics is the other half,' both dealing with the 'philosophy of human affairs'.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "trait_dialectical",
+      "type": "trait",
+      "content": "Dialectical/Sifting: Rigorous, critical approach by reviewing and analyzing various existing opinions on a topic, establishing credibility by addressing contradictions and ambiguities.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "metadata": {
+        "description": "He systematically rejects popular notions of happiness (pleasure, honour, wealth) as insufficient, stating he must 'sift those which are most generally current, or are thought to have some reason in them'.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "trait_empirical",
+      "type": "trait",
+      "content": "Empirical/Fact-Driven: Grounding philosophical principles in concrete experience and observable reality, viewing experience as the source and ultimate test of ethical knowledge.",
+      "certainty": "CORE",
+      "is_core": true,
+      "metadata": {
+        "description": "He emphasizes the necessity of 'experience as the source or test of all that he has to say'. Truth in moral action is 'judged from facts and from actual life'.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "trait_contextual",
+      "type": "trait",
+      "content": "Contextual/Relativistic: Acknowledging the inherent variability of subject matter, resisting rigid universal laws, thus stressing the need for judgment tailored to circumstance.",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "He cautions that 'exactness must not be looked for in all discussions alike' because Human Conduct is not governed by 'necessary and uniform laws' and always admits exceptions.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "trait_analytic",
+      "type": "trait",
+      "content": "Analytic/Definitional: Breaking down complex concepts (like virtue or moral choice) into their constituent elements and deriving precise definitions based on function or genus.",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "He determines the nature of Moral Virtue by first concluding it must be a 'State' (ἕξις) and then defining it by its specific work of determining the relative mean.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "trait_pedagogical",
+      "type": "trait",
+      "content": "Pedagogical/Methodological: Structuring discourse clearly by setting out the spirit of inquiry, defining scope, and stipulating the necessary conditions for profitable study.",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "He outlines that the reader must have 'enough general education' and a 'solid foundation of good habits' to study Moral Philosophy profitably, as the young man is 'not a fit student'.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "goal_achieve_eudaimonia",
+      "type": "goal",
+      "content": "Achieve Eudaimonia: To realize the conditions of happiness (the Chief Good), guiding individual life choices toward the 'best for man' and satisfaction of desire.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_goal_eudaimonia",
+      "metadata": {
+        "quote": "The aim of it is the acquisition and propagation of a certain kind of knowledge (science)... of what is best for man and of the conditions of its realisation.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "goal_form_good_character",
+      "type": "goal",
+      "content": "Form Good Character: To investigate how moral character is formed and perfected, establishing the necessity of cultivating virtues as the essential prerequisite for a successful life.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_goal_character",
+      "metadata": {
+        "quote": "Hence the Ethics, where his attention is directed upon the formation of character, is largely and centrally a treatise on Moral Education.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "goal_complete_political_theory",
+      "type": "goal",
+      "content": "Complete Political Theory (πολιτική): To provide the philosophical basis for organizing and administering the community, including outlining the best polity, laws, and customs necessary for collective well-living.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_goal_politics",
+      "metadata": {
+        "quote": "Not till this answer is given will 'the philosophy of human affairs' be complete.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "goal_rational_basis_morality",
+      "type": "goal",
+      "content": "Provide a Rational Basis for Morality: To demonstrate that virtuous action is intrinsically reasonable conduct, revealing the structure and function of the rational faculties involved in choosing right means.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "ne_goal_rational",
+      "metadata": {
+        "quote": "The thinking involved in right conduct is calculation—calculation of means to an end fixed by nature and foreknowable.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "concept_politike",
+      "type": "concept",
+      "content": "Πολιτική (Politikē): Political/Social Science - The master science concerned with human affairs, determining which sciences exist and governing human conduct toward the collective good.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_politike",
+      "metadata": {
+        "quote": "Now one would naturally suppose it to be the End of that which is most commanding and most inclusive: and to this description, πολιτική plainly answers.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "concept_eudaimonia",
+      "type": "concept",
+      "content": "Eudaimonia (Happiness): The single, final, and self-sufficient End of all human action, defined as activity of the soul in accordance with virtue over a complete life.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_eudaimonia_concept",
+      "metadata": {
+        "quote": "The Chief Good then is not something common, and after one ἰδέα... And of this nature Happiness is mostly thought to be, for this we choose always for its own sake, and never with a view to anything further.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "concept_arete",
+      "type": "concept",
+      "content": "Ἀρετή (Aretē): Excellence/Virtue - Developed powers or perfections of the soul, acquired through discipline and habituation, essential for success in human life.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_arete_concept",
+      "metadata": {
+        "quote": "In their developed form they are known as virtues (the Greek means simply 'goodnesses,' 'perfections,' 'excellences,' or 'fitnesses').",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "concept_hexis",
+      "type": "concept",
+      "content": "Ἕξις (Hexis): State/Habit/Disposition - A permanent, fixed condition or quality of the agent's self, acquired through custom (repeated action), which forms character.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_hexis",
+      "metadata": {
+        "quote": "What then is a 'moral virtue'... It is a permanent state of the agent's self, or, as we might in modern phrase put it, of his will.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "concept_mesotes",
+      "type": "concept",
+      "content": "Mesotēs (The Mean): The relative, non-mechanical middle ground between two moral extremes (excess and defect), determined by reason and practical wisdom in a specific situation.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_mesotes_concept",
+      "metadata": {
+        "quote": "Virtue then is 'a state apt to exercise deliberate choice, being in the relative mean, determined by reason, and as the man of practical wisdom would determine.'",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "concept_phronesis",
+      "type": "concept",
+      "content": "Φρόνησις (Phronēsis): Practical Wisdom - An Intellectual Excellence required for action, defined as a true state conjoined with reason, apt to do what is good for man.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_phronesis_concept",
+      "metadata": {
+        "quote": "Practical Wisdom must be 'a state conjoined with reason, true, having human good for its object, and apt to do.'",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "concept_proairesis",
+      "type": "concept",
+      "content": "Προαίρεσις (Proairesis): Moral Choice - A voluntary act preceded by deliberation, defined as 'a grasping after something in our own power consequent upon Deliberation'.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_proairesis",
+      "metadata": {
+        "quote": "Moral Choice must be 'a grasping after something in our own power consequent upon Deliberation:' because after having deliberated we decide, and then grasp by our Will in accordance with the result of our deliberation.",
+        "location": "Nicomachean Ethics"
+      }
+    },
+    {
+      "id": "concept_habituation",
+      "type": "concept",
+      "content": "Habituation (Custom): The process of repeatedly doing acts of similar quality, which fixes natural aptitudes into moral habits (virtues or vices). The primary mechanism for acquiring moral virtues.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "ne_habituation",
+      "metadata": {
+        "quote": "Character, good or bad, is produced by what Aristotle calls 'habituation,' that is, it is the result of the repeated doing of acts which have a similar or common quality.",
+        "location": "Nicomachean Ethics"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "belief_happiness_is_activity",
+      "target_id": "concept_arete",
+      "edge_type": "requires",
+      "weight": 0.95,
+      "evidence": "The final Good of Man is defined as the working of the soul, specifically 'in the way of Excellence,' making excellence necessary for the defining activity of happiness."
+    },
+    {
+      "source_id": "concept_arete",
+      "target_id": "concept_habituation",
+      "edge_type": "requires",
+      "weight": 0.95,
+      "evidence": "Moral excellence is not innate; it is acquired by performing single acts of working similar to the desired virtue, forming a stable habit or state."
+    },
+    {
+      "source_id": "concept_proairesis",
+      "target_id": "goal_achieve_eudaimonia",
+      "edge_type": "precedes",
+      "weight": 0.9,
+      "evidence": "Moral choice is the starting point (the moving cause) of moral action, representing the conclusion of deliberation put into effect."
+    },
+    {
+      "source_id": "value_excellence",
+      "target_id": "concept_phronesis",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "Goodness of character is necessary for the major premise of practical reasoning to be true (for the agent to correctly perceive the true End), preventing reason from being corrupted by vice."
+    },
+    {
+      "source_id": "concept_phronesis",
+      "target_id": "value_excellence",
+      "edge_type": "requires",
+      "weight": 0.95,
+      "evidence": "Practical wisdom requires moral goodness; without the right moral aim (set by virtue), practical wisdom degrades into mere cleverness or unscrupulousness."
+    },
+    {
+      "source_id": "belief_wisdom_virtue_interdependent",
+      "target_id": "concept_phronesis",
+      "edge_type": "is_part_of",
+      "weight": 0.95,
+      "evidence": "The property of the Practically Wise man is to deliberate well regarding what is good and expedient for himself and for living well generally."
+    },
+    {
+      "source_id": "value_happiness",
+      "target_id": "belief_happiness_is_activity",
+      "edge_type": "is_part_of",
+      "weight": 1.0,
+      "evidence": "Pleasure is not a separate good but is the 'natural concomitant and index of perfect activity' (working) and perfects the activity itself."
+    },
+    {
+      "source_id": "concept_hexis",
+      "target_id": "concept_habituation",
+      "edge_type": "contradicts",
+      "weight": 0.8,
+      "evidence": "Moral virtue is an acquired state, not a capacity (which is natural), and unlike a capacity (which can embrace contraries), a state produces only healthy/virtuous acts."
+    },
+    {
+      "source_id": "concept_eudaimonia",
+      "target_id": "belief_happiness_ultimate_end",
+      "edge_type": "requires",
+      "weight": 1.0,
+      "evidence": "Happiness must be the most final good, which requires it to be self-sufficient, meaning it needs nothing further to be choice-worthy."
+    },
+    {
+      "source_id": "concept_politike",
+      "target_id": "goal_form_good_character",
+      "edge_type": "causes",
+      "weight": 0.9,
+      "evidence": "Law, as reason backed by force, is the main instrument of the Political Community to enforce right order and guide men towards living virtuously."
+    },
+    {
+      "source_id": "belief_teleology",
+      "target_id": "belief_happiness_ultimate_end",
+      "edge_type": "supports",
+      "weight": 1.0,
+      "evidence": "The foundational belief in teleology defines the subject of ethical inquiry, leading directly to the search for the Chief Good (Happiness)."
+    },
+    {
+      "source_id": "belief_virtue_is_mean",
+      "target_id": "concept_mesotes",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The Doctrine of the Mean provides the methodological tool for defining specific Moral Virtues, supporting the idea that conduct is 'essentially reasonable'."
+    },
+    {
+      "source_id": "value_justice",
+      "target_id": "value_friendship",
+      "edge_type": "supports",
+      "weight": 0.85,
+      "evidence": "Friendship is 'the bond of Social Communities,' which legislators prioritize alongside (or even above) justice for maintaining social cohesion."
+    },
+    {
+      "source_id": "trait_empirical",
+      "target_id": "belief_ethics_generalities",
+      "edge_type": "supports",
+      "weight": 0.9,
+      "evidence": "The empirical approach emphasizes that ethical rules state probabilities from observed patterns, not exact laws, requiring practical wisdom to apply them to specific situations."
+    },
+    {
+      "source_id": "goal_complete_political_theory",
+      "target_id": "concept_politike",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The goal to complete political theory requires understanding Political Science as the master science governing human affairs and organizing the community for collective well-being."
+    }
+  ]
+}

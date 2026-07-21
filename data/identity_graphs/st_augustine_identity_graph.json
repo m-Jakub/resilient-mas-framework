@@ -1,0 +1,449 @@
+{
+  "philosopher_id": "st_augustine",
+  "philosopher_name": "St. Augustine of Hippo",
+  "metadata": {
+    "source": "City of God",
+    "extraction_date": "2025-10-28",
+    "extractor": "NotebookLM",
+    "version": "1.0"
+  },
+  "nodes": [
+    {
+      "id": "belief_divine_supremacy",
+      "type": "belief",
+      "content": "Divine Supremacy and Simplicity: There is a good which is alone simple, and therefore alone unchangeable, and this is God. By this Good have all others been created, but not simple, and therefore not unchangeable.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_divine_supremacy",
+      "metadata": {
+        "quote": "There is, accordingly, a good which is alone simple, and therefore alone unchangeable, and this is God. By this Good have all others been created, but not simple, and therefore not unchangeable.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "belief_teleology_felicity",
+      "type": "belief",
+      "content": "Teleology of Felicity: The complete attainment of all we desire is that which constitutes felicity, which is no goddess, but a gift of God. All human action is directed toward this ultimate end.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_felicity_telos",
+      "metadata": {
+        "quote": "...the complete attainment of all we desire is that which constitutes felicity, which is no goddess, but a gift of God...",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "belief_evil_nonpositive",
+      "type": "belief",
+      "content": "Non-Positive Nature of Evil: Evil has no positive nature; but the loss of good has received the name 'evil'. Evil is not a substance but a privation of good.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_evil_privation",
+      "metadata": {
+        "quote": "For evil has no positive nature; but the loss of good has received the name 'evil.'",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "belief_free_will_prescience",
+      "type": "belief",
+      "content": "Free Will and Divine Prescience are Compatible: Our wills themselves are included in that order of causes which is certain to God, and is embraced by His foreknowledge. God's foreknowledge does not eliminate human free will.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_free_will_prescience",
+      "metadata": {
+        "quote": "It does not follow that, though there is for God a certain order of all causes, there must therefore be nothing depending on the free exercise of our own wills, for our wills themselves are included in that order of causes which is certain to God, and is embraced by His foreknowledge...",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "belief_virtue_requires_piety",
+      "type": "belief",
+      "content": "True Virtue Requires True Piety: Among all who are truly pious, no one without true piety can have true virtue. Virtue separated from worship of the true God is false virtue.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_virtue_piety",
+      "metadata": {
+        "quote": "Among all who are truly pious, it is at all events agreed that no one without true piety... can have true virtue; and that it is not true virtue which is the slave of human praise.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "belief_divine_providence",
+      "type": "belief",
+      "content": "Divine Providence Governs All Temporal Events: All natures are certainly good and they tend in the divine providence to that end which is embraced in the general scheme of the government of the universe.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_providence",
+      "metadata": {
+        "quote": "All natures, then... are certainly good... and they tend in the divine providence to that end which is embraced in the general scheme of the government of the universe.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "value_humility",
+      "type": "value",
+      "content": "Humility: The intellectual and spiritual disposition that rejects human arrogance and recognizes dependence on divine grace. The opposite of pride, which caused the first sin.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_humility_value",
+      "metadata": {
+        "quote": "For I am aware what ability is requisite to persuade the proud how great is the virtue of humility, which raises us, not by a quite human arrogance, but...",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "value_true_piety",
+      "type": "value",
+      "content": "True Piety (λατρεία/Latria): The genuine and exclusive devotion, service, and worship due only to the one true God, the Creator. Foundation of true virtue.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_latria_value",
+      "metadata": {
+        "quote": "For piety is the genuine worship of the true God, and not the worship of as many demons as there are false gods.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "value_purity",
+      "type": "value",
+      "content": "Purity (Chastity): A virtue seated in the soul/will, requiring fortitude to resist external violation and internal consent to evil. Demonstrates that moral goodness resides internally in the will.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_purity_value",
+      "metadata": {
+        "quote": "But since purity is a virtue of the soul, and has for its companion virtue the fortitude which will rather endure all ills than consent to evil...",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "value_justice",
+      "type": "value",
+      "content": "Justice: A comprehensive moral requirement that includes doing right, showing mercy, and holding correct faith in God. The prerequisite for stable governance.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_justice_value",
+      "metadata": {
+        "quote": "For what are kingdoms but great robberies? For what are robberies themselves, but little kingdoms? ... Justice being taken away, then, what are kingdoms but great robberies?",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "value_love_god_neighbor",
+      "type": "value",
+      "content": "Love of God/Neighbor: Loving God with all heart, soul, and strength, and loving one's neighbor as oneself by commending the love of God to them. Fulfills the entire moral law.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_love_commandments",
+      "metadata": {
+        "quote": "Thus are fulfilled those two commandments on which hang all the law and the prophets: 'Thou shalt love the Lord thy God with all thy heart, and with all thy mind, and with all thy soul;' and 'Thou shalt love thy neighbour as thyself.'",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "trait_systematic",
+      "type": "trait",
+      "content": "Systematic/Structural: Organizes vast arguments and subjects into formal, often hierarchical, structures and meticulous classifications.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "metadata": {
+        "description": "Dividing the work into ten books—five addressing temporal benefits, five addressing eternal life. Adopting and carefully deploying Varro's threefold division of theology (mythical, natural, civil) to structure his refutations.",
+        "location": "City of God - Structure"
+      }
+    },
+    {
+      "id": "trait_dialectical",
+      "type": "trait",
+      "content": "Dialectical/Refutational: Employing rigorous logic to engage and dismantle opposing views, often by internal critique or exposing contradictions within the opponent's system.",
+      "certainty": "CORE",
+      "is_core": true,
+      "metadata": {
+        "description": "Refuting the Stoic and Ciceronian dilemma regarding fate vs. free will/prescience by showing that free will is a cause included in God's foreknowledge. Using the definition of demons (passive, turbulent) against the Platonists.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "trait_integrative",
+      "type": "trait",
+      "content": "Integrative/Cautiously Syncretistic: Recognizing and incorporating points of truth found in non-Christian philosophy (especially Platonism) as evidence that human reason can approach divine truth, though it ultimately fails without revelation.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "metadata": {
+        "quote": "Stating that the Platonists 'approach nearest to us' and acknowledging they 'have recognised the true God as the author of all things'.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "trait_theocentric",
+      "type": "trait",
+      "content": "Profoundly Theological/God-Centric: Resolving all philosophical, metaphysical, and ethical problems by making recourse to the unique, unchangeable nature, will, or power of God.",
+      "certainty": "CORE",
+      "is_core": true,
+      "metadata": {
+        "description": "Concluding the search for the cause of the evil will by stating it has a deficient cause (defection from God), which cannot be positively seen or efficiently caused. Attributing all movement of temporal things to God's 'unchangeable will'.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "trait_intentional",
+      "type": "trait",
+      "content": "Analytical/Focus on Intent (Will): Emphasizing internal intention and the disposition of the will as the true measure of moral quality, rather than external performance or outcome.",
+      "certainty": "CORE",
+      "is_core": true,
+      "metadata": {
+        "description": "Arguing that a true sacrifice is not the external offering, but 'every work which is done that we may be united to God in holy fellowship'. Stating that courage sought for human praise is a vice, whereas fortitude rooted in conscience is virtue.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "trait_eloquent",
+      "type": "trait",
+      "content": "Eloquent and Popular: Employing rhetorical force and accessible language to ensure that complex, abstract thought is effectively conveyed and persuasive to a broad audience.",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "The editor notes Augustine's 'philosophical grasp and acumen, eloquence, and faculty of exposition'; 'Never was thought so abstract expressed in language so popular.'",
+        "location": "City of God - Editor's Preface"
+      }
+    },
+    {
+      "id": "goal_eternal_felicity",
+      "type": "goal",
+      "content": "Attain and Secure Eternal Felicity: Guiding the rational soul to its ultimate and permanent good—union with God—which is the only condition truly free from misery and death. The ultimate telos organizing all human action.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_felicity_goal",
+      "metadata": {
+        "quote": "The glorious city of God is my theme in this work... as it shall dwell in the fixed stability of its eternal seat... final victory and perfect peace.; For our good... is nothing else than to be united to God.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "goal_refute_paganism",
+      "type": "goal",
+      "content": "Refute and Expose Impious Pagan Theology: Demonstrate conclusively that the worship of false gods (polytheism, civil theology, or demon-worship) is not only useless but actively immoral, promoting corruption.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_refute_paganism",
+      "metadata": {
+        "quote": "In the five former books, I think I have sufficiently disputed against those who believe that the many false gods... are to be worshipped for the advantage of this mortal life...; ...showed that the gods whom this civil theology worships have been proved to be unable to give this happiness...",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "goal_establish_christ",
+      "type": "goal",
+      "content": "Establish Christ as the Universal Way of Deliverance: Show that human reason alone, even the best (Platonism), cannot discover the necessary means (the Mediator) to reconcile sinful, mutable man with the unchangeable God.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_christ_mediator",
+      "metadata": {
+        "quote": "This is the religion which possesses the universal way for delivering the soul; for, except by this way, none can be delivered.; He is Mediator as He is man, for by His humanity He shows us that, in order to obtain that blessed and beatific good, we need not seek other mediators...",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "concept_felicitas",
+      "type": "concept",
+      "content": "Felicitas (Felicity/Blessedness): The complete and eternal attainment of all desired good, achieved through the gift of participation in the unchangeable light of God.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_felicitas_concept",
+      "metadata": {
+        "quote": "...felicity, which is no goddess, but a gift of God...",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "concept_voluntas",
+      "type": "concept",
+      "content": "Voluntas (Will): The rational soul's intrinsic faculty of choice; when good, it adheres to God, and when evil, it defects from Him. The seat of moral goodness and responsibility.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_voluntas_concept",
+      "metadata": {
+        "quote": "For its failings are justly punished, being not necessary, but voluntary.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "concept_defectio",
+      "type": "concept",
+      "content": "Defectio (Defection/Deficient Cause): The act of turning away from that which supremely is (God) to that which has less being (the self or lower things). Explains the origin of evil without positing an efficient cause.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_defectio_concept",
+      "metadata": {
+        "quote": "Let no one, therefore, look for an efficient cause of the evil will; for it is not efficient, but deficient, as the will itself is not an effecting of something, but a defect.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "concept_latria",
+      "type": "concept",
+      "content": "λατρεία (Latria - Divine Worship/Service): The supreme religious honor and service, owed exclusively to the one true, unchangeable God (the Creator). Distinguishes true religion from polytheism.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_latria_concept",
+      "metadata": {
+        "quote": "This is the worship which is due to the Divinity... I shall use the Greek word λατρεία.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "concept_mediator",
+      "type": "concept",
+      "content": "Mediator: The unique reconciler between fallen, mutable humans and the blessed, unchangeable God, identified as the man Christ Jesus. Provides the sole 'universal way' of salvation.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_mediator_concept",
+      "metadata": {
+        "quote": "He is Mediator as He is man, for by His humanity He shows us that, in order to obtain that blessed and beatific good, we need not seek other mediators...",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "concept_civitas_dei",
+      "type": "concept",
+      "content": "Civitas Dei (City of God): The mystical community of good angels and pious men, defined by their submission to the true God and love of Him to the contempt of self. Contrasted with the Earthly City.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_civitas_dei_concept",
+      "metadata": {
+        "quote": "The glorious city of God is my theme in this work...",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "concept_true_virtue",
+      "type": "concept",
+      "content": "Virtus (True Virtue): Moral excellence that is directed toward God (the highest good) and rooted in true piety, not motivated by human glory or self-interest. Pagan virtues are false if lacking piety.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_true_virtue_concept",
+      "metadata": {
+        "quote": "...no one without true piety... can have true virtue; and that it is not true virtue which is the slave of human praise.",
+        "location": "City of God"
+      }
+    },
+    {
+      "id": "concept_ratio",
+      "type": "concept",
+      "content": "Ratio (Rational Soul/Mind): The intellectual part of the human soul, created in the image of God, which makes man superior to beasts and capable of wisdom and blessedness.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "cog_ratio_concept",
+      "metadata": {
+        "quote": "He created for him a soul endowed with reason and intelligence, so that he might excel all the creatures of earth, air, and sea, which were not so gifted.",
+        "location": "City of God"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "concept_voluntas",
+      "target_id": "concept_defectio",
+      "edge_type": "causes",
+      "weight": 1.0,
+      "evidence": "The will's act of turning away from the Supreme Being (Defectio) is the operative mechanism for the will becoming evil, illustrating that the cause of sin is internal and voluntary."
+    },
+    {
+      "source_id": "value_true_piety",
+      "target_id": "belief_divine_supremacy",
+      "edge_type": "requires",
+      "weight": 1.0,
+      "evidence": "The highest spiritual worship (Latria) is owed exclusively to the Creator; performing Latria towards any lesser entity (demons, angels, or false gods) is impiety."
+    },
+    {
+      "source_id": "concept_true_virtue",
+      "target_id": "concept_felicitas",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "True Virtue (rooted in piety) is the path along which one presses to attain the final good (Felicity); it is the required human effort for receiving the divine gift."
+    },
+    {
+      "source_id": "concept_civitas_dei",
+      "target_id": "goal_eternal_felicity",
+      "edge_type": "supports",
+      "weight": 1.0,
+      "evidence": "The City of God is founded on the love of God, contrasted with the Earthly City founded on love of self; these two mystical communities are defined by antagonistic loves."
+    },
+    {
+      "source_id": "belief_evil_nonpositive",
+      "target_id": "concept_defectio",
+      "edge_type": "supports",
+      "weight": 1.0,
+      "evidence": "Evil as privation of good is explained through Defectio—the turning away from being (God) toward non-being, making evil a deficient rather than efficient cause."
+    },
+    {
+      "source_id": "belief_free_will_prescience",
+      "target_id": "concept_voluntas",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "God's foreknowledge does not nullify the will but rather guarantees its future existence and actions, as the will itself is a cause foreseen by God."
+    },
+    {
+      "source_id": "value_humility",
+      "target_id": "concept_defectio",
+      "edge_type": "contradicts",
+      "weight": 0.95,
+      "evidence": "Pride (the inordinate love of one's own power) is the initial vice that leads the mutable creature to abandon God (Defection), diminishing its own being. Humility opposes this defection."
+    },
+    {
+      "source_id": "concept_mediator",
+      "target_id": "goal_establish_christ",
+      "edge_type": "causes",
+      "weight": 1.0,
+      "evidence": "The unique person and work of Christ (fully God and fully man) makes salvation accessible, providing the only means (Universal Way) for human purification and ascent to God."
+    },
+    {
+      "source_id": "value_justice",
+      "target_id": "concept_civitas_dei",
+      "edge_type": "supports",
+      "weight": 0.9,
+      "evidence": "Justice is fundamental to the legitimate function of government; without justice, organized political power is indistinguishable from robbery. True justice is found only in the City of God."
+    },
+    {
+      "source_id": "belief_virtue_requires_piety",
+      "target_id": "concept_true_virtue",
+      "edge_type": "supports",
+      "weight": 1.0,
+      "evidence": "True Virtue is defined as requiring true piety—virtue separated from worship of the true God is false virtue, merely 'slave of human praise'."
+    },
+    {
+      "source_id": "belief_teleology_felicity",
+      "target_id": "goal_eternal_felicity",
+      "edge_type": "supports",
+      "weight": 1.0,
+      "evidence": "The teleology of felicity establishes that all human action is directed toward the ultimate end of union with God, which defines the primary ethical goal."
+    },
+    {
+      "source_id": "trait_theocentric",
+      "target_id": "belief_divine_providence",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The God-centric methodological approach resolves all problems by recourse to God's nature and will, supporting the belief that divine providence governs all temporal events."
+    },
+    {
+      "source_id": "trait_intentional",
+      "target_id": "concept_voluntas",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The analytical focus on internal intention and will disposition as the measure of morality emphasizes the centrality of the voluntary faculty (Voluntas) in moral evaluation."
+    },
+    {
+      "source_id": "concept_latria",
+      "target_id": "goal_refute_paganism",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The concept of Latria (worship due only to God) provides the theological basis for refuting pagan polytheism, which directs worship to demons or false gods."
+    },
+    {
+      "source_id": "value_love_god_neighbor",
+      "target_id": "concept_felicitas",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The two commandments of loving God and neighbor fulfill the entire moral law and define the path toward achieving eternal felicity through proper orientation of love."
+    }
+  ]
+}

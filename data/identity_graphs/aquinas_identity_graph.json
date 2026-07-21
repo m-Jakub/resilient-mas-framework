@@ -1,0 +1,504 @@
+{
+  "philosopher_id": "aquinas",
+  "philosopher_name": "St. Thomas Aquinas",
+  "metadata": {
+    "source": "Summa Theologiae (Parts I-II, Questions 55-67 and 90-97)",
+    "extraction_date": "2025-10-28",
+    "extractor": "NotebookLM",
+    "version": "1.0"
+  },
+  "nodes": [
+    {
+      "id": "belief_virtue_operative_habit",
+      "type": "belief",
+      "content": "Human virtue is an operative habit - a good quality that makes its possessor good and his work good, perfecting the rational powers of the soul",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_qq55_virtue_habit",
+      "metadata": {
+        "quote": "human virtue which is an operative habit, is a good habit, productive of good works",
+        "location": "I-II, Q55-67"
+      }
+    },
+    {
+      "id": "belief_law_ordinance_reason",
+      "type": "belief",
+      "content": "Law is fundamentally an ordinance of reason for the common good, enacted by the person entrusted with care of the community and duly promulgated",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_q90_law_definition",
+      "metadata": {
+        "quote": "Law is nothing else than an ordinance of reason for the common good, made by him who has care of the community, and promulgated",
+        "location": "I-II, Q90-97"
+      }
+    },
+    {
+      "id": "belief_moral_virtue_prudence",
+      "type": "belief",
+      "content": "Perfect moral virtue requires the co-existence of prudence because right choice necessitates both a good intention (moral virtue) and correct reasoning about means (prudence)",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_qq55_67_prudence_necessity",
+      "metadata": {
+        "quote": "there can be no moral virtue without prudence, because it is a habit of choosing, i.e. making us choose well",
+        "location": "I-II, Q55-67"
+      }
+    },
+    {
+      "id": "belief_eternal_law_supreme",
+      "type": "belief",
+      "content": "The Eternal Law is the supreme type of Divine Reason governing the whole universe, and all other true laws are necessarily derived from it",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_q91_eternal_law",
+      "metadata": {
+        "quote": "The very Idea of the government of things in God the Ruler of the universe, has the nature of a law... this kind of law must be called eternal",
+        "location": "I-II, Q91"
+      }
+    },
+    {
+      "id": "belief_natural_law_participation",
+      "type": "belief",
+      "content": "The Natural Law is the rational creature's participation in the Eternal Law, allowing man to naturally discern what is good and what is evil",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_q91_natural_law",
+      "metadata": {
+        "quote": "the natural law is nothing else than the rational creature's participation of the eternal law",
+        "location": "I-II, Q91"
+      }
+    },
+    {
+      "id": "belief_charity_prerequisite",
+      "type": "belief",
+      "content": "Charity is the essential prerequisite for perfect virtue, as it directs man toward his supernatural ultimate end, which natural or acquired virtues cannot attain alone",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "summa_qq55_67_charity",
+      "metadata": {
+        "quote": "only the infused virtues are perfect... since they direct man well to the ultimate end... Such like moral virtues cannot be without charity",
+        "location": "I-II, Q55-67"
+      }
+    },
+    {
+      "id": "belief_moral_virtue_mean",
+      "type": "belief",
+      "content": "Moral virtue consists in observing the rational mean, avoiding both the excess and the deficiency of passions or actions relative to the rule of right reason",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_qq55_67_mean",
+      "metadata": {
+        "quote": "moral virtue observes the mean, in so far as it makes the passion conform to the rule of reason",
+        "location": "I-II, Q55-67"
+      }
+    },
+    {
+      "id": "value_rectitude_of_reason",
+      "type": "value",
+      "content": "Rectitude of Reason: The moral standard requiring that all appetitive movements and human acts conform to the right judgment of the intellect",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_rectitude",
+      "metadata": {
+        "quote": "the good of moral virtue consists in conformity with the rule of reason"
+      }
+    },
+    {
+      "id": "value_common_good",
+      "type": "value",
+      "content": "Common Good: The universal happiness or shared welfare of the community to which all law and all particular human acts must be ordained",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_q90_common_good",
+      "metadata": {
+        "quote": "Consequently the law must needs regard principally the relationship to happiness... the law must needs regard properly the relationship to universal happiness",
+        "location": "I-II, Q90"
+      }
+    },
+    {
+      "id": "value_truth",
+      "type": "value",
+      "content": "Truth: The inherent good of the intellect, achieved through considering things as they truly are (speculative) or in conformity with right appetite (practical)",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_truth_intellect",
+      "metadata": {
+        "quote": "The good of the intellect is truth, and falsehood is its evil"
+      }
+    },
+    {
+      "id": "value_justice",
+      "type": "value",
+      "content": "Justice: The cardinal virtue that inclines the will to render to each person his due, ordering man not only in himself but in relation to another",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_justice",
+      "metadata": {
+        "quote": "justice is the most excellent of all the moral virtues, as being most akin to reason"
+      }
+    },
+    {
+      "id": "value_right_use_of_aptness",
+      "type": "value",
+      "content": "Right Use of Aptness: The capacity of a habit not only to confer the ability to act well but also to guarantee the correct utilization of that ability",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "summa_right_use",
+      "metadata": {
+        "quote": "a habit may confer not only aptness to act, but also the right use of that aptness: for instance, justice not only gives man the prompt will to do just actions, but also makes him act justly"
+      }
+    },
+    {
+      "id": "value_charity",
+      "type": "value",
+      "content": "Charity (Love): A supernatural friendship with God that is the spiritual root and mother of all infused virtues, directing man to his ultimate supernatural end",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_charity_theological",
+      "metadata": {
+        "quote": "charity is the mother and the root of all the virtues, inasmuch as it is the form of them all"
+      }
+    },
+    {
+      "id": "trait_systematic",
+      "type": "trait",
+      "content": "Systematic/Structural: Rigorous organization dividing complex subjects into numbered points and subsections before providing definitions and analysis",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Entire treatise organized under numbered Questions, Prologues, and Articles with sequential inquiry points"
+      }
+    },
+    {
+      "id": "trait_dialectical",
+      "type": "trait",
+      "content": "Dialectical: Consistent use of Objection-On the contrary-Reply structure, synthesizing opposing views and authorities to arrive at nuanced truth",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Every article uses debate structure with objections from common sayings or authorities, then provides definitive answer"
+      }
+    },
+    {
+      "id": "trait_integrative",
+      "type": "trait",
+      "content": "Integrative (Syncretic): Habitually melds classical philosophy (Aristotle, Cicero, Plato) with Christian theology (Augustine, Scripture)",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Defines human virtue by combining Aristotelian habitus with Augustine's theological definition of virtue as quality 'which God works in us, without us'"
+      }
+    },
+    {
+      "id": "trait_principle_driven",
+      "type": "trait",
+      "content": "Principle-Driven (Deductive): Methodological adherence to foundational axioms, moving from universal principle to derive specific applications",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Derives Natural Law precepts from first indemonstrable principle of practical reason: 'good is to be done and pursued, and evil is to be avoided'"
+      }
+    },
+    {
+      "id": "trait_analytic",
+      "type": "trait",
+      "content": "Analytic/Differentiating: Rigorous focus on specifying and distinguishing concepts, particularly through defining how terms are applied analogously",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Distinguishes intellectual virtues (confer aptness only) from moral virtues (confer both aptness and right use, therefore virtues 'simply')"
+      }
+    },
+    {
+      "id": "trait_teleological",
+      "type": "trait",
+      "content": "Teleological: Constantly refers things back to their proper end (telos) as the determining factor for their nature, perfection, or goodness",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Defines law by its end (common good/universal happiness) and determines perfection of virtue by direction toward ultimate end (supernatural bliss)"
+      }
+    },
+    {
+      "id": "goal_supernatural_happiness",
+      "type": "goal",
+      "content": "Direct Man to Supernatural Happiness and eternal bliss in conformity with God, requiring infused virtues (Faith, Hope, Charity)",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_supernatural_end",
+      "metadata": {
+        "quote": "man is ordained to an end of eternal happiness which is inproportionate to man's natural faculty... it was necessary that... man should be directed to his end by a law given by God"
+      }
+    },
+    {
+      "id": "goal_cultivate_virtue",
+      "type": "goal",
+      "content": "Cultivate Virtue and Right Action to ensure man possesses and rightly uses operative habits that enable good deeds, making him good simply",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_virtue_cultivation",
+      "metadata": {
+        "quote": "the proper effect of law is to lead its subjects to their proper virtue: and since virtue is 'that which makes its subject good,' it follows that the proper effect of law is to make those to whom it is given, good"
+      }
+    },
+    {
+      "id": "goal_preserve_common_good",
+      "type": "goal",
+      "content": "Establish and Preserve the Common Good through law as extrinsic means to secure peace, order, and universal happiness of the community",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_common_good_preservation",
+      "metadata": {
+        "quote": "Therefore in order that man might have peace and virtue, it was necessary for laws to be framed... every law is ordained to the common good"
+      }
+    },
+    {
+      "id": "goal_perfect_rectitude_choice",
+      "type": "goal",
+      "content": "Achieve Perfect Rectitude of Choice ensuring human acts are done from right choice, not merely from instinct or passion",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_right_choice",
+      "metadata": {
+        "quote": "in order to do good deeds, it matters not only what a man does, but also how he does it; to wit, that he do it from right choice and not merely from impulse or passion"
+      }
+    },
+    {
+      "id": "concept_virtus",
+      "type": "concept",
+      "content": "Virtus (Virtue): A good, operative habit that makes its possessor and his work good, perfecting a power of the soul, especially the rational powers",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_virtus",
+      "metadata": {
+        "original_term": "Virtus",
+        "translation": "Virtue (Human)",
+        "quote": "Virtue is that which makes its possessor good, and his work good likewise"
+      }
+    },
+    {
+      "id": "concept_habitus",
+      "type": "concept",
+      "content": "Habitus (Habit): A stable quality or disposition of a power, required for rational powers because they are otherwise indeterminately inclined to many actions",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_habitus",
+      "metadata": {
+        "original_term": "Habitus",
+        "translation": "Habit",
+        "quote": "The Philosopher says (Categor. vi) that science and virtue are habits"
+      }
+    },
+    {
+      "id": "concept_prudentia",
+      "type": "concept",
+      "content": "Prudentia (Prudence): The intellectual virtue defined as 'right reason of things to be done', concerned with right counsel, judgment, and command regarding means to a good end",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_prudentia",
+      "metadata": {
+        "original_term": "Prudentia",
+        "translation": "Prudence",
+        "quote": "Prudence is a virtue most necessary for human life... Consequently prudence is a virtue necessary to lead a good life"
+      }
+    },
+    {
+      "id": "concept_lex_aeterna",
+      "type": "concept",
+      "content": "Lex Aeterna (Eternal Law): The type of Divine Wisdom, existing eternally in God, which orders and governs the acts and movements of all created things",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_lex_aeterna",
+      "metadata": {
+        "original_term": "Lex Aeterna",
+        "translation": "Eternal Law",
+        "quote": "the very Idea of the government of things in God the Ruler of the universe, has the nature of a law"
+      }
+    },
+    {
+      "id": "concept_lex_naturalis",
+      "type": "concept",
+      "content": "Lex Naturalis (Natural Law): The participation of the eternal law in the rational creature, allowing man to naturally discern good and evil and know self-evident, general principles of action",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_lex_naturalis",
+      "metadata": {
+        "original_term": "Lex Naturalis",
+        "translation": "Natural Law",
+        "quote": "this participation of the eternal law in the rational creature is called the natural law"
+      }
+    },
+    {
+      "id": "concept_bonum_commune",
+      "type": "concept",
+      "content": "Bonum Commune (Common Good): The ultimate end of the perfect community (state) or universal happiness, which serves as the principal aim of all legal ordinances",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_bonum_commune",
+      "metadata": {
+        "original_term": "Bonum Commune",
+        "translation": "Common Good",
+        "quote": "every law is ordained to the common good"
+      }
+    },
+    {
+      "id": "concept_caritas",
+      "type": "concept",
+      "content": "Caritas (Charity): The theological virtue that is a certain friendship with God, enabling man to love God as the object of supernatural bliss",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_caritas",
+      "metadata": {
+        "original_term": "Caritas",
+        "translation": "Charity (Love)",
+        "quote": "The love of charity is of that which is already possessed: since the beloved is, in a manner, in the lover"
+      }
+    },
+    {
+      "id": "concept_passio",
+      "type": "concept",
+      "content": "Passio (Passion): A movement of the sensitive appetite. Moral virtues regulate passions by bringing them into the mean of reason",
+      "certainty": "STRONG",
+      "is_core": false,
+      "source_chunk_id": "summa_passio",
+      "metadata": {
+        "original_term": "Passio",
+        "translation": "Passion (of the soul)",
+        "quote": "a passion is a movement of the sensitive appetite, as stated above (Question 22, Article 3): whereas moral virtue is not a movement, but rather a principle of the movement of the appetite, being a kind of habit"
+      }
+    },
+    {
+      "id": "concept_irascibilis_concupiscibilis",
+      "type": "concept",
+      "content": "Irascibilis & Concupiscibilis: The two parts of the sensitive appetite that participate in and are obedient to reason, the proper subjects of moral virtues regarding passions",
+      "certainty": "STRONG",
+      "is_core": false,
+      "source_chunk_id": "summa_appetites",
+      "metadata": {
+        "original_term": "Irascibilis & Concupiscibilis",
+        "translation": "Irascible and Concupiscible Powers",
+        "quote": "Fortitude is assigned to the irascible power, and temperance to the concupiscible power"
+      }
+    },
+    {
+      "id": "concept_rectitudo_rationis",
+      "type": "concept",
+      "content": "Rectitudo Rationis: The condition of reason being rightly disposed, which serves as the measure and rule for the appetitive part of the soul",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "summa_rectitudo_rationis",
+      "metadata": {
+        "original_term": "Rectitudo Rationis",
+        "translation": "Rectitude of Reason",
+        "quote": "Good, which is put in the definition of virtue, is not good in general... but the good as fixed by reason"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "concept_lex_aeterna",
+      "target_id": "concept_lex_naturalis",
+      "edge_type": "causal",
+      "weight": 1.0,
+      "evidence": "The Natural Law is a participation of the Eternal Law imprinted on the rational creature, drawing all its directive power from the Divine original"
+    },
+    {
+      "source_id": "concept_lex_naturalis",
+      "target_id": "belief_law_ordinance_reason",
+      "edge_type": "supports",
+      "weight": 0.90,
+      "evidence": "Human laws proceed from the Natural Law either as conclusions from its principles or as particular determinations of its general precepts"
+    },
+    {
+      "source_id": "concept_prudentia",
+      "target_id": "belief_moral_virtue_prudence",
+      "edge_type": "requires",
+      "weight": 0.95,
+      "evidence": "Prudence requires moral virtues because these virtues provide the necessary, right intention concerning the ultimate end, which acts as the premise for prudent reasoning"
+    },
+    {
+      "source_id": "belief_moral_virtue_prudence",
+      "target_id": "concept_habitus",
+      "edge_type": "is_part_of",
+      "weight": 0.95,
+      "evidence": "Habit is the broad genus for virtue; specifically, human virtue is defined as a good, operative habit"
+    },
+    {
+      "source_id": "belief_moral_virtue_mean",
+      "target_id": "concept_rectitudo_rationis",
+      "edge_type": "requires",
+      "weight": 0.95,
+      "evidence": "The perfection of moral virtue consists entirely in observing the mean established by the rectitude of reason, as reason is the measure of the appetite"
+    },
+    {
+      "source_id": "concept_caritas",
+      "target_id": "belief_charity_prerequisite",
+      "edge_type": "requires",
+      "weight": 0.90,
+      "evidence": "Charity (friendship with God) is impossible without Faith because the beloved object (God/fellowship) must first be apprehended and believed in"
+    },
+    {
+      "source_id": "belief_charity_prerequisite",
+      "target_id": "concept_caritas",
+      "edge_type": "temporal",
+      "weight": 0.85,
+      "evidence": "In the order of generation (as to acts), the intellect must apprehend the object (by Faith) before the will can move toward it (by Charity)"
+    },
+    {
+      "source_id": "concept_passio",
+      "target_id": "concept_irascibilis_concupiscibilis",
+      "edge_type": "is_part_of",
+      "weight": 0.90,
+      "evidence": "These two powers are divisions of the sensitive appetite, which is the proper subject wherein the passions reside"
+    },
+    {
+      "source_id": "concept_bonum_commune",
+      "target_id": "value_common_good",
+      "edge_type": "temporal",
+      "weight": 0.95,
+      "evidence": "The common good is the ultimate end of human action and law, and the good of any part (the individual) must be proportionate and ordered to the whole"
+    },
+    {
+      "source_id": "belief_eternal_law_supreme",
+      "target_id": "belief_natural_law_participation",
+      "edge_type": "causal",
+      "weight": 1.0,
+      "evidence": "The Eternal Law is the source of all order and justice, and the Natural Law is directly derived from it as a means of participation"
+    },
+    {
+      "source_id": "belief_virtue_operative_habit",
+      "target_id": "goal_cultivate_virtue",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The nature of virtue as operative habit directly supports the goal of cultivating virtue and right action in human beings"
+    },
+    {
+      "source_id": "belief_law_ordinance_reason",
+      "target_id": "goal_preserve_common_good",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "Law as ordinance of reason for common good directly enables the goal of establishing and preserving the common good through legal means"
+    },
+    {
+      "source_id": "value_charity",
+      "target_id": "goal_supernatural_happiness",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "Charity as friendship with God is the essential means for directing man toward supernatural happiness and eternal bliss"
+    },
+    {
+      "source_id": "trait_integrative",
+      "target_id": "trait_dialectical",
+      "edge_type": "supports",
+      "weight": 0.85,
+      "evidence": "The integrative trait (synthesizing philosophy and theology) complements the dialectical method of reconciling opposing authorities"
+    },
+    {
+      "source_id": "trait_teleological",
+      "target_id": "goal_supernatural_happiness",
+      "edge_type": "supports",
+      "weight": 0.90,
+      "evidence": "The teleological trait of referring all things to their proper end directly supports the ultimate goal of directing man to supernatural happiness"
+    }
+  ]
+}

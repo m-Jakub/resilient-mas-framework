@@ -1,0 +1,454 @@
+{
+  "philosopher_id": "kant",
+  "philosopher_name": "Immanuel Kant",
+  "metadata": {
+    "source": "Groundwork of the Metaphysics of Morals",
+    "extraction_date": "2025-10-28",
+    "extractor": "NotebookLM",
+    "version": "1.0"
+  },
+  "nodes": [
+    {
+      "id": "belief_good_will",
+      "type": "belief",
+      "content": "The good will is the only thing that can be considered good without limitation, as all other qualities can be used for evil ends if the will is not good",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_393",
+      "metadata": {
+        "quote": "It is impossible to think of anything at all in the world, or indeed even beyond it, that could be considered good without limitation except a good will",
+        "location": "AK 4:393"
+      }
+    },
+    {
+      "id": "belief_a_priori_moral_law",
+      "type": "belief",
+      "content": "Moral laws must be derived a priori from pure reason and possess absolute necessity, valid for all rational beings without exception",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_389",
+      "metadata": {
+        "quote": "a law, if it is to hold morally, that is, as a ground of an obligation, must carry with it absolute necessity",
+        "location": "AK 4:389"
+      }
+    },
+    {
+      "id": "belief_humanity_as_end",
+      "type": "belief",
+      "content": "Every rational being exists as an end in itself with absolute worth, never to be used merely as a means for arbitrary ends of others",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_428",
+      "metadata": {
+        "quote": "the human being and in general every rational being exists as an end in itself, not merely as a means to be used by this or that will at its discretion",
+        "location": "AK 4:428"
+      }
+    },
+    {
+      "id": "belief_moral_motivation",
+      "type": "belief",
+      "content": "An action possesses true moral worth only if done from duty out of respect for the law, not merely in conformity with duty or from inclination",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_400",
+      "metadata": {
+        "quote": "duty is the necessity of an action from respect for law",
+        "location": "AK 4:400"
+      }
+    },
+    {
+      "id": "belief_freedom_autonomy",
+      "type": "belief",
+      "content": "Freedom of the will is reciprocal with autonomy and the moral law - a free will and a will under moral laws are analytically one and the same",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_447",
+      "metadata": {
+        "quote": "a free will and a will under moral laws are one and the same",
+        "location": "AK 4:447"
+      }
+    },
+    {
+      "id": "belief_two_standpoints",
+      "type": "belief",
+      "content": "Rational beings must regard themselves from two standpoints: as members of the sensible world (determined by natural laws) and the intelligible world (free and autonomous)",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_452",
+      "metadata": {
+        "quote": "the human being can never think of the causality of his own will otherwise than under the idea of freedom... Hence he has two standpoints from which he can regard himself",
+        "location": "AK 4:452"
+      }
+    },
+    {
+      "id": "value_good_will",
+      "type": "value",
+      "content": "Good Will (Wille): The only thing that possesses unconditional worth, being good in itself solely through its volition",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_394",
+      "metadata": {
+        "quote": "A good will is not good because of what it effects or accomplishes... but only because of its volition, that is, it is good in itself",
+        "location": "AK 4:394"
+      }
+    },
+    {
+      "id": "value_duty",
+      "type": "value",
+      "content": "Duty (Pflicht): The necessity of an action performed solely from respect for the moral law",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_400_duty",
+      "metadata": {
+        "quote": "Duty is the necessity of an action from respect for law",
+        "location": "AK 4:400"
+      }
+    },
+    {
+      "id": "value_autonomy",
+      "type": "value",
+      "content": "Autonomy (Autonomie): The property of the will by which it is a law to itself, independently of external interests",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_436",
+      "metadata": {
+        "quote": "Autonomy is therefore the ground of the dignity of human nature and of every rational nature",
+        "location": "AK 4:436"
+      }
+    },
+    {
+      "id": "value_humanity",
+      "type": "value",
+      "content": "Humanity (Menschheit): Rational nature existing as an end in itself, possessing absolute worth that must be respected",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_429",
+      "metadata": {
+        "quote": "So act that you use humanity, whether in your own person or in the person of any other, always at the same time as an end, never merely as a means",
+        "location": "AK 4:429"
+      }
+    },
+    {
+      "id": "value_dignity",
+      "type": "value",
+      "content": "Dignity (Würde): Unconditional, incomparable inner worth that lifts something above all price and admits of no equivalent",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_435",
+      "metadata": {
+        "quote": "Hence morality, and humanity insofar as it is capable of morality, is that which alone has dignity",
+        "location": "AK 4:435"
+      }
+    },
+    {
+      "id": "value_respect_for_law",
+      "type": "value",
+      "content": "Respect for Law (Achtung für Gesetz): The self-wrought feeling arising from a rational concept signifying subordination to the moral law",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_400_respect",
+      "metadata": {
+        "quote": "Only what is connected with my will merely as ground and never as effect... hence the mere law for itself - can be an object of respect and so a command",
+        "location": "AK 4:400"
+      }
+    },
+    {
+      "id": "trait_systematic",
+      "type": "trait",
+      "content": "Systematic/Structural: Comprehensive approach dividing knowledge into logic, physics, and ethics, with pure and empirical parts",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Rigidly structured philosophical method with analytic progression from common cognition to supreme principle"
+      }
+    },
+    {
+      "id": "trait_purist",
+      "type": "trait",
+      "content": "Rigorous Purist (Anti-Empirical): Absolute insistence on cleansing foundational investigation of all empirical content",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Maintains that moral principles must be established entirely a priori to ensure necessity and purity"
+      }
+    },
+    {
+      "id": "trait_analytic",
+      "type": "trait",
+      "content": "Analytic (Conceptual Deconstruction): Begins by analyzing generally accepted concepts to identify inherent principles",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Sections I and II analyze ordinary concepts of good will and duty to derive the Categorical Imperative"
+      }
+    },
+    {
+      "id": "trait_synthetic",
+      "type": "trait",
+      "content": "Synthetic (Constructive Proof): Recognizes need for necessary third concept to bind concepts into synthetic a priori proposition",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Demonstrates how Categorical Imperative requires synthetic deduction connecting will to pure practical will through freedom"
+      }
+    },
+    {
+      "id": "trait_boundary_defining",
+      "type": "trait",
+      "content": "Boundary Defining (Self-Aware Limitation): Carefully defines limits of human reason and cognition",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Accepts fundamental concepts as necessary presuppositions that cannot be fully explained or intuited"
+      }
+    },
+    {
+      "id": "goal_supreme_principle",
+      "type": "goal",
+      "content": "Establish the Supreme Principle of Morality (Categorical Imperative) as the authoritative universal norm",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_392",
+      "metadata": {
+        "quote": "The present groundwork is, however, nothing more than the search for and establishment of the supreme principle of morality",
+        "location": "AK 4:392"
+      }
+    },
+    {
+      "id": "goal_demonstrate_necessity",
+      "type": "goal",
+      "content": "Demonstrate the objective necessity of the Moral Law to prove it is not an empty delusion",
+      "certainty": "CORE",
+      "is_core": true,
+      "metadata": {
+        "description": "Prove a priori that Categorical Imperative binds the will absolutely, defending morality against skeptical fatalism"
+      }
+    },
+    {
+      "id": "goal_ground_on_metaphysics",
+      "type": "goal",
+      "content": "Ground the Doctrine of Morals entirely upon Metaphysics, separate from empirical observations",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_389_metaphysics",
+      "metadata": {
+        "quote": "is it not thought to be of the utmost necessity to work out for once a pure moral philosophy, completely cleansed of everything that may be only empirical and that belongs to anthropology?",
+        "location": "AK 4:389"
+      }
+    },
+    {
+      "id": "goal_kingdom_of_ends",
+      "type": "goal",
+      "content": "Define the structure of an ideal rational community (Kingdom of Ends) where rational beings treat each other as ends",
+      "certainty": "STRONG",
+      "is_core": true,
+      "metadata": {
+        "description": "Vision of systematic union governed by common self-given laws, generating pure moral interest and confirming dignity"
+      }
+    },
+    {
+      "id": "concept_categorical_imperative",
+      "type": "concept",
+      "content": "Categorical Imperative: Unconditional command representing an action as objectively necessary in itself",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_414",
+      "metadata": {
+        "original_term": "Kategorische Imperativ",
+        "quote": "The categorical imperative would be that which represented an action as objectively necessary of itself, without reference to another end",
+        "location": "AK 4:414"
+      }
+    },
+    {
+      "id": "concept_maxim",
+      "type": "concept",
+      "content": "Maxim: The subjective principle of volition specifying the action and the end for which it is done",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_421_maxim",
+      "metadata": {
+        "original_term": "Maxim",
+        "quote": "A maxim is the subjective principle of acting, and must be distinguished from the objective principle, namely the practical law",
+        "location": "AK 4:421"
+      }
+    },
+    {
+      "id": "concept_autonomy",
+      "type": "concept",
+      "content": "Autonomy: The property of the will by which it is a law to itself, legislating universal laws through its maxims",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_440",
+      "metadata": {
+        "original_term": "Autonomie",
+        "quote": "Autonomy of the will is the property of the will by which it is a law to itself",
+        "location": "AK 4:440"
+      }
+    },
+    {
+      "id": "concept_heteronomy",
+      "type": "concept",
+      "content": "Heteronomy: When the will is determined by a law sought outside of itself, usually in an object or external interest",
+      "certainty": "STRONG",
+      "is_core": false,
+      "source_chunk_id": "groundwork_ak4_441",
+      "metadata": {
+        "original_term": "Heteronomie",
+        "quote": "If the will seeks the law that is to determine it anywhere else... heteronomy always results",
+        "location": "AK 4:441"
+      }
+    },
+    {
+      "id": "concept_end_in_itself",
+      "type": "concept",
+      "content": "End in Itself: Something whose existence has absolute worth, serving as the objective ground of determinate laws",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_428_end",
+      "metadata": {
+        "original_term": "Zweck an sich selbst",
+        "quote": "the human being and in general every rational being exists as an end in itself, not merely as a means",
+        "location": "AK 4:428"
+      }
+    },
+    {
+      "id": "concept_world_of_understanding",
+      "type": "concept",
+      "content": "World of Understanding (Intelligible World): Realm of things in themselves where rational beings are governed by laws of reason",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_452_world",
+      "metadata": {
+        "original_term": "Welt des Verstandes",
+        "quote": "a rational being must regard himself as intelligence... as belonging not to the world of sense but to the world of understanding",
+        "location": "AK 4:452"
+      }
+    },
+    {
+      "id": "concept_conformity_to_law",
+      "type": "concept",
+      "content": "Conformity to Law (Lawfulness): The characteristic form enabling a maxim to be willed as a universal law",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_421_conformity",
+      "metadata": {
+        "original_term": "Gesetzmäßigkeit",
+        "quote": "nothing is left with which the maxim of action is to conform but the universality of a law as such",
+        "location": "AK 4:421"
+      }
+    },
+    {
+      "id": "concept_respect",
+      "type": "concept",
+      "content": "Respect (Achtung): Self-wrought feeling arising from rational concept, signifying consciousness of subordination to moral law",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "groundwork_ak4_400_achtung",
+      "metadata": {
+        "original_term": "Achtung",
+        "quote": "duty is the necessity of an action from respect for law",
+        "location": "AK 4:400"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "belief_good_will",
+      "target_id": "value_autonomy",
+      "edge_type": "requires",
+      "weight": 0.95,
+      "evidence": "The good will must be self-determined, as any dependence on external interests would render it conditional and heteronomous"
+    },
+    {
+      "source_id": "belief_freedom_autonomy",
+      "target_id": "concept_world_of_understanding",
+      "edge_type": "is_part_of",
+      "weight": 0.90,
+      "evidence": "Freedom (independence from determination by sensible causes) is the defining property we ascribe to ourselves insofar as we belong to the intelligible realm"
+    },
+    {
+      "source_id": "value_autonomy",
+      "target_id": "value_dignity",
+      "edge_type": "causal",
+      "weight": 0.95,
+      "evidence": "The capacity of a rational being to be self-lawgiving confers upon it an unconditional, incomparable inner worth (dignity)"
+    },
+    {
+      "source_id": "concept_categorical_imperative",
+      "target_id": "value_respect_for_law",
+      "edge_type": "requires",
+      "weight": 0.95,
+      "evidence": "Because the Categorical Imperative commands unconditionally, the only possible determining ground (incentive) must be respect for that law"
+    },
+    {
+      "source_id": "belief_humanity_as_end",
+      "target_id": "concept_end_in_itself",
+      "edge_type": "is_part_of",
+      "weight": 1.0,
+      "evidence": "Rational nature exists objectively and necessarily as the thing whose absolute worth prevents it from being used merely as a means"
+    },
+    {
+      "source_id": "concept_heteronomy",
+      "target_id": "belief_a_priori_moral_law",
+      "edge_type": "contradicts",
+      "weight": 0.95,
+      "evidence": "Principles based on heteronomy always yield conditional, hypothetical imperatives, incompatible with absolute necessity of moral law"
+    },
+    {
+      "source_id": "concept_maxim",
+      "target_id": "concept_conformity_to_law",
+      "edge_type": "requires",
+      "weight": 0.95,
+      "evidence": "For a maxim to be moral, it must be possible to will it to become a universal law without contradiction"
+    },
+    {
+      "source_id": "concept_world_of_understanding",
+      "target_id": "value_duty",
+      "edge_type": "temporal",
+      "weight": 0.90,
+      "evidence": "As members of the intelligible world we are autonomous; our actions 'ought' to conform to these laws, represented as duty from the perspective of the sensible world"
+    },
+    {
+      "source_id": "belief_moral_motivation",
+      "target_id": "concept_categorical_imperative",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "Actions done from duty (respect for law) directly instantiate the categorical imperative, giving them moral worth"
+    },
+    {
+      "source_id": "value_good_will",
+      "target_id": "goal_supreme_principle",
+      "edge_type": "supports",
+      "weight": 0.90,
+      "evidence": "The unconditional nature of good will establishes the requirement for the Categorical Imperative as the supreme principle"
+    },
+    {
+      "source_id": "concept_autonomy",
+      "target_id": "goal_kingdom_of_ends",
+      "edge_type": "supports",
+      "weight": 0.85,
+      "evidence": "Autonomy as self-legislation enables rational beings to form a systematic union governed by common laws"
+    },
+    {
+      "source_id": "belief_two_standpoints",
+      "target_id": "belief_freedom_autonomy",
+      "edge_type": "supports",
+      "weight": 0.90,
+      "evidence": "The distinction between sensible and intelligible worlds resolves the apparent contradiction between freedom and determinism"
+    },
+    {
+      "source_id": "trait_purist",
+      "target_id": "goal_ground_on_metaphysics",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The anti-empirical approach directly supports the goal of grounding morals entirely on a priori metaphysics"
+    },
+    {
+      "source_id": "trait_analytic",
+      "target_id": "trait_synthetic",
+      "edge_type": "temporal",
+      "weight": 0.85,
+      "evidence": "Analytic method (Sections I-II) precedes synthetic demonstration (Section III) in the Groundwork's structure"
+    }
+  ]
+}

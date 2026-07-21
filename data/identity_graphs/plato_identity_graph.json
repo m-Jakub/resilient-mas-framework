@@ -1,0 +1,462 @@
+{
+  "philosopher_id": "plato",
+  "philosopher_name": "Plato",
+  "metadata": {
+    "source": "Republic and Gorgias",
+    "extraction_date": "2025-10-28",
+    "extractor": "NotebookLM",
+    "version": "1.0"
+  },
+  "nodes": [
+    {
+      "id": "belief_justice_intrinsic_good",
+      "type": "belief",
+      "content": "Justice is an Intrinsic Good. The just life is superior and inherently happier than the unjust life, independent of external reputation or rewards.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_justice_happiness",
+      "metadata": {
+        "quote": "Then the just is happy, and the unjust miserable? The question has now become ridiculous [to ask about comparative advantage of justice and injustice].",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "belief_injustice_greatest_evil",
+      "type": "belief",
+      "content": "To commit an injustice is a greater evil for the agent than to suffer one, as it corrupts the soul, which is the highest part of the individual.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "gorgias_injustice_evil",
+      "metadata": {
+        "quote": "It is a greater evil to do than to suffer injustice.",
+        "location": "Gorgias"
+      }
+    },
+    {
+      "id": "belief_good_supreme_principle",
+      "type": "belief",
+      "content": "The Good is the Supreme Organizing Principle. There exists an absolute Idea of Good that is the ultimate source of knowledge, truth, being, and essence, surpassing them all in dignity and power.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_idea_good",
+      "metadata": {
+        "quote": "The good is not essence, but far exceeds essence in dignity and power.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "belief_virtue_internal_order",
+      "type": "belief",
+      "content": "Virtue (Moral Excellence) is Internal Order. Virtue is achieved when the soul attains internal harmony, order, and proportional arrangement (justice and temperance), not through accident.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_virtue_order",
+      "metadata": {
+        "quote": "And the soul which has order is orderly? Assuredly. And that which is orderly is temperate? Assuredly.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "belief_highest_pursuit_philosophy",
+      "type": "belief",
+      "content": "The Highest Pursuit is Knowledge/Philosophy. The pursuit of wisdom and eternal truth (Being) must govern all actions and is the prerequisite for wise governance and personal fulfillment.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "republic_philosopher_knowledge",
+      "metadata": {
+        "quote": "The philosopher too is a lover of knowledge in every form; he has an insatiable curiosity.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "belief_pleasure_subordinate_good",
+      "type": "belief",
+      "content": "Pleasure Must Be Subordinate to Good. Pleasure is transient, relative, and often mixed with pain, contrasting sharply with the objective, permanent nature of the Good, for the sake of which pleasure is sought.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "gorgias_pleasure_good",
+      "metadata": {
+        "quote": "The pleasant is to be pursued for the sake of the good, and the good is that of which the presence makes us good.",
+        "location": "Gorgias"
+      }
+    },
+    {
+      "id": "value_justice",
+      "type": "value",
+      "content": "Justice (Dikaiosynē): The condition of the soul/state where each of the constituent parts performs its proper function without interference. It is the overarching virtue, analogous to the health of the soul.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_justice_definition",
+      "metadata": {
+        "quote": "The creation of justice [is] the institution of a natural order and government of one by another in the parts of the soul.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "value_wisdom",
+      "type": "value",
+      "content": "Wisdom (Sophía): The knowledge belonging to the small rational element of the soul, enabling sound counsel regarding the interest of the whole individual or state.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_wisdom_definition",
+      "metadata": {
+        "quote": "And him we call wise who has in him that little part which rules, and which proclaims these commands; that part too being supposed to have a knowledge of what is for the interest of each of the three parts and of the whole.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "value_temperance",
+      "type": "value",
+      "content": "Temperance (Sōphrosynē): The harmonious agreement between the naturally superior (reason) and the naturally inferior (desire/spirit) parts of the soul regarding who should rule.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_temperance_definition",
+      "metadata": {
+        "quote": "And will you not say that he is temperate who has these same elements in friendly harmony... and do not rebel?",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "value_courage",
+      "type": "value",
+      "content": "Courage (Andréia): The power of the spirited element to maintain the correct opinion implanted by law and education concerning what is or is not fearful, regardless of pleasure or pain.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_courage_definition",
+      "metadata": {
+        "quote": "And he is to be deemed courageous whose spirit retains in pleasure and in pain the commands of reason about what he ought or ought not to fear?",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "value_order_harmony",
+      "type": "value",
+      "content": "Order/Harmony (Kósmos): The proportional arrangement and structure, both internal to the soul and external in the universe, that defines goodness and beauty.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "gorgias_order_harmony",
+      "metadata": {
+        "quote": "And is not the virtue of each thing dependent on order or arrangement? Yes, I say. And that which makes a thing good is the proper order inhering in each thing?",
+        "location": "Gorgias"
+      }
+    },
+    {
+      "id": "trait_dialectical",
+      "type": "trait",
+      "content": "Dialectical: Reasoning by rigorous interrogation, definition, and refutation to ascend from opinions (hypotheses) to universal essences.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "metadata": {
+        "description": "Socrates attempts to obtain a sound definition of rhetoric from Gorgias and then employs the method of analogy and cross-examination to make him contradict himself.",
+        "location": "Gorgias"
+      }
+    },
+    {
+      "id": "trait_idealistic",
+      "type": "trait",
+      "content": "Idealistic/Abstractive: Focusing intellectual energy on grasping immutable, perfect Forms (Being) rather than variable, empirical phenomena (Becoming).",
+      "certainty": "CORE",
+      "is_core": true,
+      "metadata": {
+        "description": "The philosopher is defined as one who recognizes 'absolute beauty and is able to distinguish the idea from the objects which participate in the idea'.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "trait_systematic",
+      "type": "trait",
+      "content": "Systematic/Constructive: A methodology of building coherent structures (like the State or the Soul) based on foundational principles, then deriving specific conclusions.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "metadata": {
+        "description": "Plato proceeds from defining the needs of the basic city, expanding it into the luxurious state, and identifying the four virtues by eliminating the others, systematically finding the remainder (Justice).",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "trait_analogical",
+      "type": "trait",
+      "content": "Analogical/Integrative: Using complex analogies, metaphors, and allegories (often drawn from arts, mathematics, or mythology) to illustrate or justify abstract ethical/political claims.",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Employing the metaphor of the Sun (for the Good) and the Divided Line/Cave allegory to explain the correlation between levels of reality and knowledge.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "trait_provocative",
+      "type": "trait",
+      "content": "Provocative/Ironical: Adopting a persona of ignorance or using extreme paradoxes to challenge conventional thought and compel interlocutors toward deeper philosophical insight.",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Socrates' frequent use of 'irony' and stating paradoxical conclusions, such as that the primary use of rhetoric is self-accusation for one's injustices.",
+        "location": "Gorgias"
+      }
+    },
+    {
+      "id": "goal_establish_intrinsic_justice",
+      "type": "goal",
+      "content": "Establish Intrinsic Justice: To prove that justice is desirable entirely for its effect on the possessor's soul (internal health), separating its value from any external consequences, honors, or rewards.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_justice_goal",
+      "metadata": {
+        "quote": "I want to hear justice praised in respect of itself... and I would ask you to show not only the superiority which justice has over injustice, but what effect they have on the possessor of them which makes the one to be a good and the other an evil to him.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "goal_achieve_eudaimonia",
+      "type": "goal",
+      "content": "Achieve Eudaimonia via the Rational Soul: To demonstrate that the just life, ruled by the rational principle, results in the highest, truest, and pleasantest possible life (happiness).",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_eudaimonia_goal",
+      "metadata": {
+        "quote": "And so we arrive at the result, that the pleasure of the intelligent part of the soul is the pleasantest of the three, and that he of us in whom this is the ruling principle has the pleasantest life.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "goal_philosopher_rule",
+      "type": "goal",
+      "content": "Found the Ideal State/Philosopher-Rule: To articulate the political model where goodness and truth are the governing principles, enabling citizens to attain the highest individual virtue.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_philosopher_king_goal",
+      "metadata": {
+        "quote": "Until philosophers are kings, or the kings and princes of this world have the spirit and power of philosophy, and political greatness and wisdom meet in one... cities will never cease from ill: no, nor the human race; nor will our ideal polity ever come into being.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "goal_define_metaphysical_good",
+      "type": "goal",
+      "content": "Define the Metaphysical Good: To ascend past the traditional virtues and mathematical sciences to grasp the Idea of Good, the ultimate pattern necessary for rational action in both public and private life.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_good_goal",
+      "metadata": {
+        "quote": "In the world of knowledge the idea of good appears last of all, and is seen only with an effort; and, when seen, is also inferred to be the universal author of all things beautiful and right.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "concept_to_agathon",
+      "type": "concept",
+      "content": "Tò Agathón (The Good): The supreme principle and cause of knowledge, truth, being, and essence, exceeding all others in dignity and power. It is the ultimate object and goal of philosophical contemplation.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_agathon",
+      "metadata": {
+        "quote": "The good has a place of honour yet higher [than science and truth].",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "concept_dikaiosyne",
+      "type": "concept",
+      "content": "Dikaiosynē (Justice): The structure where each element (of the soul or state) performs its appropriate task and respects the natural hierarchy. It is the general virtue ensuring internal health.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_dikaiosyne",
+      "metadata": {
+        "quote": "The creation of justice [is] the institution of a natural order and government of one by another in the parts of the soul.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "concept_kolakeia",
+      "type": "concept",
+      "content": "Kolakeía (Flattery): A routine or activity (like rhetoric or cookery) aimed merely at producing pleasure or gratification without regard for improvement or genuine good. The opposite of true art.",
+      "certainty": "STRONG",
+      "is_core": false,
+      "source_chunk_id": "gorgias_kolakeia",
+      "metadata": {
+        "quote": "This habit I sum up under the word 'flattery'; and it appears to me to have many other parts, one of which is cookery, which may seem to be an art, but, as I maintain, is only an experience or routine and not an art.",
+        "location": "Gorgias"
+      }
+    },
+    {
+      "id": "concept_dialektike",
+      "type": "concept",
+      "content": "Dialektikē (Dialectic): The highest science and method, which uses definitions to ascend beyond hypotheses to grasp the unhypothetical first principle (the Good).",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_dialektike",
+      "metadata": {
+        "quote": "Dialectic, then, as you will agree, is the coping-stone of the sciences, and is set over them.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "concept_psyche",
+      "type": "concept",
+      "content": "Psychē (Soul): The immaterial entity within the human being, structured into three parts: Rational, Spirited, and Appetitive. The soul is the primary concern of ethics.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_psyche",
+      "metadata": {
+        "quote": "Do you not imagine that the soul likewise has some evil of her own? Of course. And this you would call injustice and ignorance and cowardice, and the like?",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "concept_epithymetikon",
+      "type": "concept",
+      "content": "Epithymētikón (Appetitive Principle): The irrational element governing bodily desires, pleasures, hungers, and covetousness. It must be controlled by the Rational principle.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_epithymetikon",
+      "metadata": {
+        "quote": "...the irrational or appetitive, the ally of sundry pleasures and satisfactions.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "concept_nous_logistikon",
+      "type": "concept",
+      "content": "Noûs / Logistikón (Reason): The immortal element of the soul dedicated to learning, calculating, governing, and contemplating truth. It ought to rule the entire soul.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_nous",
+      "metadata": {
+        "quote": "The one with which a man reasons, we may call the rational principle of the soul.",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "concept_eudaimonia",
+      "type": "concept",
+      "content": "Eudaimonía (Happiness): The resulting state of being 'blessed and happy' achieved by living well (virtuously). It is the inherent, inevitable consequence of Justice and virtue.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "republic_eudaimonia",
+      "metadata": {
+        "quote": "And he who lives well is blessed and happy, and he who lives ill the reverse of happy?",
+        "location": "Republic"
+      }
+    },
+    {
+      "id": "concept_phusikon_nomikon",
+      "type": "concept",
+      "content": "Phusikón vs. Nomikón (Nature vs. Custom): The distinction between inherent power or desires (nature) and artificial societal laws or conventions (custom).",
+      "certainty": "STRONG",
+      "is_core": false,
+      "source_chunk_id": "gorgias_nature_custom",
+      "metadata": {
+        "quote": "Convention and nature are generally at variance with one another.",
+        "location": "Gorgias"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "concept_to_agathon",
+      "target_id": "concept_dikaiosyne",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The Idea of Good is the ultimate source and eternal pattern of order, truth, and essence, after which the just man must order his soul and the state."
+    },
+    {
+      "source_id": "concept_dialektike",
+      "target_id": "value_wisdom",
+      "edge_type": "requires",
+      "weight": 0.95,
+      "evidence": "Dialectic is defined as the highest intellectual path needed to ascend to truth and define the essence of things, thus realizing the virtue of Wisdom in the ruler."
+    },
+    {
+      "source_id": "concept_dikaiosyne",
+      "target_id": "concept_eudaimonia",
+      "edge_type": "causes",
+      "weight": 1.0,
+      "evidence": "Justice is the health and well-being of the soul; therefore, having a just soul necessarily leads to a happy, blessed life (Eudaimonia)."
+    },
+    {
+      "source_id": "concept_nous_logistikon",
+      "target_id": "value_temperance",
+      "edge_type": "requires",
+      "weight": 0.9,
+      "evidence": "Temperance is explicitly defined as the agreement among all parts of the soul that the Rational Principle ought to rule the whole."
+    },
+    {
+      "source_id": "concept_kolakeia",
+      "target_id": "goal_philosopher_rule",
+      "edge_type": "contradicts",
+      "weight": 0.9,
+      "evidence": "Flattery, like rhetoric or sophistry, seeks only gratification (pleasure), whereas the true art of politics seeks the genuine improvement and good of the citizens."
+    },
+    {
+      "source_id": "belief_injustice_greatest_evil",
+      "target_id": "concept_psyche",
+      "edge_type": "is_part_of",
+      "weight": 0.95,
+      "evidence": "Moral corruption of the soul is the greatest possible harm a person can suffer; doing wrong creates this corruption, making it worse than suffering wrong."
+    },
+    {
+      "source_id": "belief_highest_pursuit_philosophy",
+      "target_id": "belief_pleasure_subordinate_good",
+      "edge_type": "contradicts",
+      "weight": 0.85,
+      "evidence": "Knowledge (epistēmē) is based on permanent, unchanging Being and is infallible, whereas Opinion (doxa) based on transient pleasure is uncertain."
+    },
+    {
+      "source_id": "belief_injustice_greatest_evil",
+      "target_id": "value_justice",
+      "edge_type": "requires",
+      "weight": 0.9,
+      "evidence": "If a soul is afflicted with injustice (the greatest evil), punishment acts as a correction or 'medicine' to heal and purge the soul, making the person just."
+    },
+    {
+      "source_id": "concept_epithymetikon",
+      "target_id": "concept_nous_logistikon",
+      "edge_type": "supports",
+      "weight": 0.85,
+      "evidence": "The spirited element (thumos) naturally sides with reason against the appetites, providing the energy (courage) needed to maintain internal order."
+    },
+    {
+      "source_id": "belief_virtue_internal_order",
+      "target_id": "goal_philosopher_rule",
+      "edge_type": "precedes",
+      "weight": 0.9,
+      "evidence": "One must first establish virtue in the individual soul before attempting to apply oneself to public affairs or political governance."
+    },
+    {
+      "source_id": "belief_justice_intrinsic_good",
+      "target_id": "goal_establish_intrinsic_justice",
+      "edge_type": "supports",
+      "weight": 1.0,
+      "evidence": "The central thesis of the Republic is to prove that justice is desirable for its own sake, independent of external consequences."
+    },
+    {
+      "source_id": "belief_good_supreme_principle",
+      "target_id": "goal_define_metaphysical_good",
+      "edge_type": "supports",
+      "weight": 1.0,
+      "evidence": "The absolute Idea of Good is the metaphysical foundation requiring ascent through Dialectic to grasp the ultimate pattern for rational action."
+    },
+    {
+      "source_id": "value_order_harmony",
+      "target_id": "belief_virtue_internal_order",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "Order and geometrical proportion bind together heaven, earth, gods, and men; virtue is defined as the proper order inhering in the soul."
+    },
+    {
+      "source_id": "trait_dialectical",
+      "target_id": "concept_dialektike",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The dialectical reasoning style is the practical application of Dialectic as the method to ascend from hypotheses to first principles."
+    },
+    {
+      "source_id": "trait_idealistic",
+      "target_id": "concept_to_agathon",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The idealistic/abstractive trait focuses intellectual energy on grasping immutable Forms, with the Good as the supreme Form."
+    }
+  ]
+}

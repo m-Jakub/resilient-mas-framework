@@ -1,0 +1,485 @@
+{
+  "philosopher_id": "nietzsche",
+  "philosopher_name": "Friedrich Nietzsche",
+  "metadata": {
+    "source": "Beyond Good and Evil, On the Genealogy of Morals",
+    "extraction_date": "2025-10-28",
+    "extractor": "NotebookLM",
+    "version": "1.0"
+  },
+  "nodes": [
+    {
+      "id": "belief_will_to_power",
+      "type": "belief",
+      "content": "All life, nature, and phenomena are fundamentally manifestations of the Will to Power. A living thing seeks above all to discharge its strength—life itself is will to power.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "bge_will_to_power",
+      "metadata": {
+        "quote": "A living thing seeks above all to DISCHARGE its strength—life itself is WILL TO POWER. The world seen from within... it would simply be 'Will to Power,' and nothing else.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "belief_truth_utility",
+      "type": "belief",
+      "content": "Truth is not an absolute, objective value, but rather must be judged based on its utility for the preservation and furtherance of life.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "bge_truth_utility",
+      "metadata": {
+        "quote": "The falseness of an opinion is not for us any objection to it: the question is, how far an opinion is life-furthering, life-preserving, species-preserving, perhaps species-rearing.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "belief_morality_interpretation",
+      "type": "belief",
+      "content": "Traditional morality is not a description of phenomena, but a subjective interpretation influenced primarily by physiological demands and underlying instincts.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "bge_morality_interpretation",
+      "metadata": {
+        "quote": "All psychology hitherto has run aground on moral prejudices... there are no such thing as moral phenomena, but only a moral interpretation of phenomena. Behind all logic and its seeming sovereignty... there are valuations, or to speak more plainly, physiological demands.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "belief_philosophy_autobiography",
+      "type": "belief",
+      "content": "Philosophical systems are involuntary, unconscious confessions or autobiographies of their originators, reflecting the order and purpose of their deepest instincts.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "bge_philosophy_autobiography",
+      "metadata": {
+        "quote": "Every great philosophy up till now has consisted of—namely, the confession of its originator, and a species of involuntary and unconscious auto-biography.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "belief_free_will_error",
+      "type": "belief",
+      "content": "The popular belief in 'free will' and related concepts like causa sui (cause of itself) is a crass psychological error, rooted in extravagant human pride and grammatical prejudice.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "bge_free_will",
+      "metadata": {
+        "quote": "The CAUSA SUI is the best self-contradiction that has yet been conceived... The desire for 'freedom of will' in the superlative, metaphysical sense... involves nothing less than to be precisely this CAUSA SUI.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "belief_value_unintentional",
+      "type": "belief",
+      "content": "The moral valuation of an action should be shifted from its intention or consequences to its deeper, unintentional origin as a symptom of underlying power.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "bge_unintentional_value",
+      "metadata": {
+        "quote": "The necessity may now have arisen of again making up our minds with regard to the reversing and fundamental shifting of values... the decisive value of an action lies precisely in that which is NOT INTENTIONAL.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "belief_morality_tyranny",
+      "type": "belief",
+      "content": "Morality is fundamentally a long constraint, a tyranny imposed against 'nature' and 'reason,' which nevertheless serves to educate and discipline the spirit.",
+      "certainty": "MODERATE",
+      "is_core": false,
+      "source_chunk_id": "bge_morality_tyranny",
+      "metadata": {
+        "quote": "Every system of morals is a sort of tyranny against 'nature' and also against 'reason'. The singular fact remains, however, that everything of the nature of freedom... has only developed by means of the tyranny of such arbitrary law.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "value_strength",
+      "type": "value",
+      "content": "Strength/Vigor: A measure of physiological and psychological health, capacity for command, and unbound creativity. The philosopher aligns the ultimate value of life with the maximum potentiality of the human species.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "bge_strength_value",
+      "metadata": {
+        "quote": "The strength of a mind might be measured by the amount of 'truth' it could endure. The magnificent tension of soul... produced in Europe.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "value_independence",
+      "type": "value",
+      "content": "Independence/Solitude: The capacity to separate oneself from the herd, establish one's own law, and resist the flattening effect of gregariousness. Essential for the higher man and the philosopher of the future.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "bge_independence_value",
+      "metadata": {
+        "quote": "It is the business of the very few to be independent; it is a privilege of the strong. He shall be the greatest who can be the most solitary, the most concealed, the most divergent, the man beyond good and evil.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "value_intellectual_cleanness",
+      "type": "value",
+      "content": "Intellectual Cleanness (Honesty): A severe, unflinching critical attitude; the willingness to perceive dangerous truths without mitigation or moral prejudice. The defining virtue of the 'free spirit'.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "bge_honesty_value",
+      "metadata": {
+        "quote": "Honesty, granting that it is the virtue of which we cannot rid ourselves, we free spirits—well, we will labour at it with all our perversity and love.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "value_pathos_distance",
+      "type": "value",
+      "content": "Pathos of Distance: An instinctive, incarnated recognition of inherent hierarchy, rank, and difference in worth among human beings. The prerequisite for the elevation of the type 'man' and source of Master-Morality.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "gm_pathos_distance",
+      "metadata": {
+        "quote": "Without the PATHOS OF DISTANCE, such as grows out of the incarnated difference of classes... that other more mysterious pathos could never have arisen, the longing for an ever new widening of distance within the soul itself.",
+        "location": "Genealogy of Morals"
+      }
+    },
+    {
+      "id": "value_severity",
+      "type": "value",
+      "content": "Severity/Hardness: The readiness to endure great suffering, administer discipline, and exercise necessary cruelty, often toward oneself or the creature in man. A discipline necessary for growth and creation.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "bge_severity_value",
+      "metadata": {
+        "quote": "We believe that severity, violence, slavery, danger... everything wicked, terrible, tyrannical... serves as well for the elevation of the human species as its opposite.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "value_courage",
+      "type": "value",
+      "content": "Courage/Daring: The willingness to take risks, hazard dangerous enterprises, and launch into the depths of forbidden knowledge. Necessary to break traditional boundaries and fulfill the function of the new philosophers.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "bge_courage_value",
+      "metadata": {
+        "quote": "A little MORE strength, swing, courage, and artistic power, and they would be OFF—and not back! The prodigious confidence and self-glorification of the sovereign individual... the man of the personal, long, and independent will, competent to promise.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "trait_genealogical",
+      "type": "trait",
+      "content": "Genealogical/Historical: Investigates the origin and historical conditions under which moral concepts and valuations arose, rather than accepting them as static.",
+      "certainty": "CORE",
+      "is_core": true,
+      "metadata": {
+        "description": "Tracing the origin of value judgment from consequences (pre-moral period) to intention (moral period) to the suspicion of the unintentional (ultra-moral period). Analyzing the antithesis of 'good and bad' versus 'good and evil' as originating in master castes versus slave resentment.",
+        "location": "Beyond Good and Evil, Genealogy of Morals"
+      }
+    },
+    {
+      "id": "trait_physio_psychological",
+      "type": "trait",
+      "content": "Physio-Psychological: Interprets philosophical and moral assertions primarily as expressions of underlying physiological demands, instincts, or racial conditions.",
+      "certainty": "CORE",
+      "is_core": true,
+      "metadata": {
+        "description": "Stating that philosophical thinking is secretly influenced by instincts and 'physiological demands, for the maintenance of a definite mode of life'. Defining the belief in 'Nature's conformity to law' among physicists as an interpretation tied to 'physiological valuations and racial conditions'.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "trait_perspectival",
+      "type": "trait",
+      "content": "Perspectival/Anti-Absolutist: Views all knowledge, values, and existence as relative to a specific perspective, rejecting dogmatism and 'immediate certainties.'",
+      "certainty": "CORE",
+      "is_core": true,
+      "metadata": {
+        "description": "Suggesting that popular valuations might be 'merely superficial estimates, merely provisional perspectives, besides being probably made from some corner... frog perspectives'. Asserting that there are only 'degrees of seemingness'.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "trait_polemical",
+      "type": "trait",
+      "content": "Polemical/Critical: Engages through sharp, often destructive critiques of established traditions (Platonism, Christianity, Kantianism) to clear the ground for new thinking.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "metadata": {
+        "description": "Calling Plato's invention of Pure Spirit 'the worst, the most tiresome, and the most dangerous of errors'. Replacing Kant's question about synthetic judgments a priori with 'Why is belief in such judgments necessary?'",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "trait_systematic",
+      "type": "trait",
+      "content": "Systematic/Integratively Driven: A relentless impulse to unify explanatory principles, particularly by tracing all forces back to one fundamental concept (monism of causality).",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Hazarding the hypothesis 'whether will does not operate on will wherever effects are recognized'. Postulating that if the attempt to explain all phenomena via a single causality, the Will to Power, succeeds.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "trait_esoteric",
+      "type": "trait",
+      "content": "Esoteric/Masked: Recognizes the necessity of disguise and intentional non-communication, reserving deepest insights for a select, predisposed few.",
+      "certainty": "STRONG",
+      "is_core": false,
+      "metadata": {
+        "description": "Stating that 'our deepest insights must—and should—appear as follies, and under certain circumstances as crimes, when they come unauthorizedly to the ears of those who are not disposed and predestined for them'. Every profound spirit needs a mask.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "goal_transvaluation",
+      "type": "goal",
+      "content": "Transvaluation of All Values: The critical objective of overturning the historically dominant moral tables (Slave-Morality/Christianity) and reversing established valuations. The chief work of the new philosopher.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "gm_transvaluation_goal",
+      "metadata": {
+        "quote": "To REVERSE all estimates of value—THAT is what they had to do! The attempt... to initiate opposite estimates of value, to transvalue and invert 'eternal valuations'.",
+        "location": "Genealogy of Morals"
+      }
+    },
+    {
+      "id": "goal_higher_man",
+      "type": "goal",
+      "content": "Rearing the Higher Man: The long-term objective of cultivating a stronger, commanding, autonomous, and more vigorous human species, moving beyond the 'gregarious animal' of modern democracy.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "bge_higher_man_goal",
+      "metadata": {
+        "quote": "For that purpose a new type of philosopher and commander will some time or other be needed. He shall be the greatest who can be the most solitary... the man beyond good and evil, the master of his virtues, and of super-abundance of will.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "goal_intellectual_freedom",
+      "type": "goal",
+      "content": "Achieve Intellectual Cleanness/Freedom: To overcome the moral prejudices and timidity that have historically shackled thought and psychology, allowing investigation into 'dangerous knowledge' without moral indignation.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "bge_intellectual_freedom_goal",
+      "metadata": {
+        "quote": "We need a critique of moral values, the value of these values is for the first time to be called into question. To recognise UNTRUTH AS A CONDITION OF LIFE; that is certainly to impugn the traditional ideas of value in a dangerous manner.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "goal_life_affirmation",
+      "type": "goal",
+      "content": "Self-Justification of Life: To affirm existence and the Will to Power, redeeming reality from the curse of nihilism and world-renouncing ideals (like Platonism, Christianity, and Schopenhauer's pessimism).",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "gm_life_affirmation_goal",
+      "metadata": {
+        "quote": "The ideal of the most world-approving, exuberant, and vivacious man, who has not only learnt to compromise and arrange with that which was and is, but wishes to have it again AS IT WAS AND IS, for all eternity.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "concept_wille_zur_macht",
+      "type": "concept",
+      "content": "Wille zur Macht (Will to Power): The fundamental, insatiable impulse underlying all organic and inorganic processes; the striving to discharge strength, overcome resistance, and grow.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "bge_wille_zur_macht",
+      "metadata": {
+        "quote": "A living thing seeks above all to DISCHARGE its strength—life itself is WILL TO POWER.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "concept_jenseits",
+      "type": "concept",
+      "content": "Jenseits von Gut und Böse (Beyond Good and Evil): A philosophical stance transcending the traditional moral dichotomy of 'good' (altruistic) and 'evil' (selfish), which is based on the Slave-Morality perspective.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "bge_jenseits",
+      "metadata": {
+        "quote": "A philosophy which ventures to do so, has thereby alone placed itself beyond good and evil.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "concept_herden_moral",
+      "type": "concept",
+      "content": "Herden-Moral (Herd-Morality): The system of valuations that favors common utility, safety, security, equality, and sympathy, originating from the instincts of the weak and gregarious.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "bge_herden_moral",
+      "metadata": {
+        "quote": "MORALITY IN EUROPE AT PRESENT IS HERDING-ANIMAL MORALITY.",
+        "location": "Beyond Good and Evil"
+      }
+    },
+    {
+      "id": "concept_master_slave_morality",
+      "type": "concept",
+      "content": "Herren-Moral / Sklaven-Moral (Master-Morality / Slave-Morality): Two fundamental, opposed types of value creation: Master-Morality affirms the noble/powerful as 'good'; Slave-Morality defines 'good' as the opposite of the powerful ('evil').",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "gm_master_slave",
+      "metadata": {
+        "quote": "There is MASTER-MORALITY and SLAVE-MORALITY,—I would at once add, however, that in all higher and mixed civilizations, there are also attempts at the reconciliation of the two moralities.",
+        "location": "Genealogy of Morals"
+      }
+    },
+    {
+      "id": "concept_ressentiment",
+      "type": "concept",
+      "content": "Ressentiment (Resentment): A creative psychological force stemming from frustrated weakness and inability to act, leading to an imaginary revenge that gives birth to the Slave-Morality.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "gm_ressentiment",
+      "metadata": {
+        "quote": "The revolt of the slaves in morals begins in the very principle of resentment becoming creative and giving birth to values—a resentment experienced by creatures who, deprived as they are of the proper outlet of action, are forced to find their compensation in an imaginary revenge.",
+        "location": "Genealogy of Morals"
+      }
+    },
+    {
+      "id": "concept_pathos_der_distanz",
+      "type": "concept",
+      "content": "Pathos der Distanz (Pathos of Distance): The passionate feeling of inherent, incarnated difference in rank between the noble ruling caste and the subordinates, necessary for elevation.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "gm_pathos_der_distanz",
+      "metadata": {
+        "quote": "Without the PATHOS OF DISTANCE... the elevation of the type 'man,' the continued 'self-surmounting of man,'... could never have arisen.",
+        "location": "Genealogy of Morals"
+      }
+    },
+    {
+      "id": "concept_bad_conscience",
+      "type": "concept",
+      "content": "Schlechtes Gewissen (Bad Conscience): The internalization of aggressive, destructive instincts, resulting from man being tamed by society and turning his original cruelty inward.",
+      "certainty": "STRONG",
+      "is_core": true,
+      "source_chunk_id": "gm_bad_conscience",
+      "metadata": {
+        "quote": "Enmity, cruelty, the delight in persecution, in surprises, change, destruction—the turning all these instincts against their own possessors: this is the origin of the 'bad conscience'.",
+        "location": "Genealogy of Morals"
+      }
+    },
+    {
+      "id": "concept_perspektivismus",
+      "type": "concept",
+      "content": "Perspektivismus (Perspectivism): The epistemological stance that all knowledge is necessarily viewed and interpreted from a specific, limited perspective ('frog perspectives') determined by physiological needs and context.",
+      "certainty": "CORE",
+      "is_core": true,
+      "source_chunk_id": "bge_perspektivismus",
+      "metadata": {
+        "quote": "The denial of the PERSPECTIVE—the fundamental condition—of life, to speak of Spirit and the Good as Plato spoke of them.",
+        "location": "Beyond Good and Evil"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "concept_wille_zur_macht",
+      "target_id": "belief_will_to_power",
+      "edge_type": "is_part_of",
+      "weight": 1.0,
+      "evidence": "The will to power is not merely a component of life but its fundamental definition; it is the active, driving essence of existence."
+    },
+    {
+      "source_id": "belief_truth_utility",
+      "target_id": "value_intellectual_cleanness",
+      "edge_type": "supports",
+      "weight": 0.9,
+      "evidence": "Truth is not intrinsically valuable; its value is derivative, measured by how far it promotes life, even if the opinion itself is technically false."
+    },
+    {
+      "source_id": "concept_pathos_der_distanz",
+      "target_id": "concept_master_slave_morality",
+      "edge_type": "causes",
+      "weight": 0.95,
+      "evidence": "The aristocratic feeling of superiority and difference is the origin point for the Master-Morality, which allows the ruling caste to create values based on their own elevated self-conception."
+    },
+    {
+      "source_id": "value_strength",
+      "target_id": "concept_ressentiment",
+      "edge_type": "contradicts",
+      "weight": 0.95,
+      "evidence": "Resentment is the creative response of creatures who lack the strength to act against their oppressors, forcing them to seek imaginary revenge through moral condemnation."
+    },
+    {
+      "source_id": "concept_ressentiment",
+      "target_id": "concept_master_slave_morality",
+      "edge_type": "causes",
+      "weight": 0.95,
+      "evidence": "Slave-Morality is the system of values born from resentment, defining the powerful as 'evil' and defining the weak as 'good' by antithesis."
+    },
+    {
+      "source_id": "concept_master_slave_morality",
+      "target_id": "value_pathos_distance",
+      "edge_type": "contradicts",
+      "weight": 0.9,
+      "evidence": "Slave-Morality glorifies equality ('Equality of Rights') and sympathy, actively opposing the hierarchical instinct of difference and rank necessary for Master-Morality."
+    },
+    {
+      "source_id": "concept_bad_conscience",
+      "target_id": "belief_morality_tyranny",
+      "edge_type": "requires",
+      "weight": 0.85,
+      "evidence": "The bad conscience arises only after man's destructive animal instincts are blocked by social constraint (taming), forcing those instincts to turn inward and express themselves as self-torture."
+    },
+    {
+      "source_id": "value_intellectual_cleanness",
+      "target_id": "goal_transvaluation",
+      "edge_type": "precedes",
+      "weight": 0.95,
+      "evidence": "The relentless pursuit of difficult, dangerous truths (intellectual cleanness/honesty) must occur first, as it exposes the lies and flawed origins of existing values, making the transvaluation possible."
+    },
+    {
+      "source_id": "belief_philosophy_autobiography",
+      "target_id": "concept_perspektivismus",
+      "edge_type": "supports",
+      "weight": 0.9,
+      "evidence": "Dogmatism is founded on the belief in absolute truth and fixed values (e.g., Plato's Good in Itself), which is directly denied by the Perspectivist recognition that all knowledge is contextual and relative."
+    },
+    {
+      "source_id": "concept_herden_moral",
+      "target_id": "goal_higher_man",
+      "edge_type": "contradicts",
+      "weight": 0.95,
+      "evidence": "The political and ethical push for equality and comfort (driven by Herd-Morality) results in the general dwarfing and homogenization of the human type, suppressing the conditions necessary for higher individuals."
+    },
+    {
+      "source_id": "belief_will_to_power",
+      "target_id": "concept_master_slave_morality",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The Will to Power as the metaphysical foundation supports the rejection of traditional morality and the affirmation of Strength, justifying the aristocratic value system of Master-Morality."
+    },
+    {
+      "source_id": "belief_value_unintentional",
+      "target_id": "goal_transvaluation",
+      "edge_type": "supports",
+      "weight": 0.9,
+      "evidence": "The new criterion of valuing the unintentional origin precedes the Transvaluation of All Values and supports the psychological focus on drives, impulses, and physiological demands."
+    },
+    {
+      "source_id": "trait_genealogical",
+      "target_id": "concept_master_slave_morality",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The genealogical method investigates the historical origin of moral concepts, tracing the antithesis of 'good and bad' versus 'good and evil' to master castes versus slave resentment."
+    },
+    {
+      "source_id": "concept_jenseits",
+      "target_id": "goal_higher_man",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The stance of being 'beyond good and evil' is the ultimate goal of the free spirit and the new philosopher, marking the stage where one creates new values for the higher man."
+    },
+    {
+      "source_id": "trait_physio_psychological",
+      "target_id": "belief_morality_interpretation",
+      "edge_type": "supports",
+      "weight": 0.95,
+      "evidence": "The physio-psychological method interprets philosophical and moral assertions as expressions of underlying physiological demands, supporting the belief that morality is interpretation influenced by instincts."
+    }
+  ]
+}

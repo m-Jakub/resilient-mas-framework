@@ -1,0 +1,134 @@
+# Socratic Moderation Question Templates
+# Used by the SocraticModerator to generate context-appropriate questions
+# during philosophical debates.
+
+questions:
+  # === CLARIFICATION QUESTIONS ===
+  # Purpose: Clarify vague or ambiguous concepts
+  clarification:
+    - "What do you mean by '{concept}'?"
+    - "Could you clarify what you understand by '{concept}'?"
+    - "When you say '{concept}', what exactly do you have in mind?"
+    - "How are you defining '{concept}' in this context?"
+    - "What are the boundaries of the concept '{concept}' as you use it?"
+    - "Can you give an example of '{concept}' in practice?"
+    - "Is '{concept}' being used in a technical or ordinary sense here?"
+
+  # === COUNTERFACTUAL QUESTIONS ===
+  # Purpose: Test principles through hypothetical scenarios
+  counterfactual:
+    - "What if the principle of '{concept}' were reversed?"
+    - "How would your argument change if '{concept}' were not the case?"
+    - "What would happen if we applied '{concept}' universally?"
+    - "Consider the opposite: what if '{concept}' led to harm?"
+    - "Suppose '{concept}' did not exist—how would you approach this dilemma?"
+    - "What if everyone acted according to '{concept}'—what would result?"
+    - "If '{concept}' were impossible, what alternative would you propose?"
+
+  # === DEFINITIONAL QUESTIONS ===
+  # Purpose: Establish clear definitions and distinctions
+  definitional:
+    - "How do we define '{concept}' in this context?"
+    - "What are the essential characteristics of '{concept}'?"
+    - "Is '{concept}' the same as '{related_concept}', or are they distinct?"
+    - "What distinguishes '{concept}' from '{opposed_concept}'?"
+    - "Can you provide necessary and sufficient conditions for '{concept}'?"
+    - "Is '{concept}' a primitive notion, or can it be defined in terms of other concepts?"
+    - "What would count as a paradigm case of '{concept}'?"
+
+  # === EPISTEMIC QUESTIONS ===
+  # Purpose: Examine grounds for knowledge and justification
+  epistemic:
+    - "How do we know that '{concept}' is true or valid?"
+    - "What evidence supports the claim about '{concept}'?"
+    - "On what grounds can we assert that '{concept}' is overriding?"
+    - "What justifies prioritizing '{concept}' over other values?"
+    - "Is our understanding of '{concept}' based on reason, intuition, or authority?"
+    - "What would count as evidence against '{concept}'?"
+    - "Can we be certain about '{concept}', or is it merely probable?"
+
+  # === COMPARATIVE QUESTIONS ===
+  # Purpose: Compare different frameworks and perspectives
+  comparative:
+    - "How does '{concept}' compare to '{opposed_concept}'?"
+    - "What would a proponent of '{opposed_concept}' say about this?"
+    - "Can '{concept}' and '{related_concept}' be reconciled?"
+    - "Which framework better accounts for '{concept}'—yours or theirs?"
+    - "In what circumstances would '{opposed_concept}' be superior to '{concept}'?"
+    - "Do both '{concept}' and '{opposed_concept}' share common ground?"
+    - "What are the strengths and weaknesses of '{concept}' relative to alternatives?"
+
+  # === CONSISTENCY QUESTIONS ===
+  # Purpose: Test internal coherence and logical consistency
+  consistency:
+    - "Is your use of '{concept}' consistent with your earlier claims?"
+    - "How does this view of '{concept}' align with your team's position?"
+    - "Does applying '{concept}' here contradict your previous argument?"
+    - "Can you maintain both '{concept}' and '{opposed_concept}' without contradiction?"
+    - "If you accept '{concept}', must you also accept '{related_concept}'?"
+    - "Are there cases where '{concept}' conflicts with itself?"
+    - "Does your commitment to '{concept}' require you to reject other principles?"
+
+  # === IMPLICATION QUESTIONS ===
+  # Purpose: Explore logical consequences and commitments
+  implication:
+    - "What are the implications of accepting '{concept}'?"
+    - "If '{concept}' is true, what follows from that?"
+    - "Does commitment to '{concept}' require accepting certain consequences?"
+    - "What else must be true if '{concept}' holds?"
+    - "Are you prepared to accept all the implications of '{concept}'?"
+    - "Does '{concept}' entail any surprising or counterintuitive results?"
+    - "If we follow '{concept}' to its logical conclusion, where does it lead?"
+
+  # === FOUNDATIONAL QUESTIONS ===
+  # Purpose: Examine underlying assumptions and foundations
+  foundational:
+    - "What assumptions underlie your appeal to '{concept}'?"
+    - "Is '{concept}' a basic principle, or is it derived from something more fundamental?"
+    - "What would have to be true for '{concept}' to be valid?"
+    - "Are there any hidden premises in your argument about '{concept}'?"
+    - "On what basis do we accept '{concept}' as normative?"
+    - "Could '{concept}' be justified without appealing to '{related_concept}'?"
+    - "What is the ultimate ground or source of '{concept}'?"
+
+  # === PRACTICAL QUESTIONS ===
+  # Purpose: Connect abstract principles to concrete application
+  practical:
+    - "How would '{concept}' apply in this specific case?"
+    - "What practical guidance does '{concept}' provide?"
+    - "Can '{concept}' be operationalized or measured?"
+    - "What would it look like to act according to '{concept}'?"
+    - "Are there limits to the practical applicability of '{concept}'?"
+    - "How do we resolve conflicts when '{concept}' points in multiple directions?"
+    - "What role should '{concept}' play in actual decision-making?"
+
+# Tone profiles for different moderation styles
+tone_profiles:
+  reflective:
+    description: "Thoughtful, invites deeper consideration"
+    emphasis: ["clarification", "implication", "foundational"]
+  
+  inquisitive:
+    description: "Curious, probing, seeks understanding"
+    emphasis: ["epistemic", "definitional", "comparative"]
+  
+  challenging:
+    description: "Tests assumptions, exposes tensions"
+    emphasis: ["consistency", "counterfactual", "implication"]
+  
+  integrative:
+    description: "Seeks synthesis, bridges perspectives"
+    emphasis: ["comparative", "practical", "definitional"]
+
+# Intervention thresholds
+intervention_rules:
+  conceptual_conflict_threshold: 0.6
+  shallow_discussion_threshold: 0.7
+  overreliance_threshold: 0.65
+  epistemic_gap_threshold: 0.7
+  
+  # Minimum concepts before intervention
+  min_concepts_for_depth_check: 2
+  
+  # Maximum uses of single concept before flagging
+  max_single_concept_uses: 5
