@@ -16,6 +16,7 @@ The repository has been strictly refactored into isolated domain modules to supp
 * `src/common/` - Shared foundational infrastructure, including LLM API abstractions, `tenacity`-backed retry mechanisms, core moral ontologies, and base identity representations.
 * `src/hde/` - Core engine for the Heterogeneous Debate Engine, orchestrating multi-agent team alignment, speech queues, and the Socratic interactive tutor.
 * `src/kg_cfr/` - Implementation of the Tripartite Standoff architecture. Houses the central System Dispatcher for stochastic environmental shocks (S1–S4), policy modules (EOH, IVC, SHM), and the private Strategy Buffer decoupling planning from speech.
+* `src/apg/` - Active Provenance Gate (APG), a post-debate proposer-validator loop that checks whether the final operational synthesis is grounded in the available debate history, private traces, and retrieved axioms.
 * `scripts/` - Extensive suite of experiment runners (e.g., overnight batch processing) and analytical scripts for extracting conceptual coverage and identity drift metrics from E2E JSON logs.
 * `tests/` - Comprehensive test suite divided into `unit` and `integration` tests to validate module integrity offline.
 
@@ -54,7 +55,7 @@ Note: The embedding pipeline features automatic hardware detection. It will nati
 The main entry point `main.py` orchestrates execution across all three experimental modes (`baseline`, `aegis`, and `legacy`).
 
 ### 1. Tripartite Standoff (AEGIS Mode)
-Runs the full policy module debate with environmental shocks and configurable Counterfactual Reflection (CFR):
+Runs the full policy module debate with environmental shocks and configurable Counterfactual Reflection (CFR). When an LLM is available, the run also executes the APG Phase 4 synthesis and provenance verification loop:
 
 - **Knowledge-Grounded CFR (Full Pipeline):**
   `python main.py --mode aegis --max-turns 6 --cfr-mode kg_cfr_full`
@@ -68,11 +69,20 @@ Runs the full policy module debate with environmental shocks and configurable Co
 - **Custom Output Log Location:**
   `python main.py --mode aegis --max-turns 6 --cfr-mode kg_cfr_full --output logs/experiments/custom_run.json`
 
-### 2. Single Tutor Baseline
+### 2. Active Provenance Gate (APG)
+APG is executed automatically after an AEGIS debate. It produces a unified operational synthesis, validates its claims against the available evidence, retries rejected proposals up to three iterations, and records provenance fidelity, self-correction, token overhead, and execution latency in the session log.
+
+Implementation and parameter details are documented in [paper_supplementary/article_3_apg/apg_reproducibility_guide.md](paper_supplementary/article_3_apg/apg_reproducibility_guide.md). The batch evaluator can be inspected with:
+
+```bash
+python scripts/analysis/evaluate_provenance_batch.py --help
+```
+
+### 3. Single Tutor Baseline
 Runs the baseline ethical tutoring interaction:
 `python main.py --mode baseline --max-turns 10`
 
-### 3. Legacy Debate Mode
+### 4. Legacy Debate Mode
 Runs the original interactive debate engine:
 `python main.py --mode legacy`
 
