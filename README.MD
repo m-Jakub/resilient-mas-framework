@@ -8,15 +8,22 @@
 ## Overview
 This repository contains the official implementation of a Resilient Multi-Agent System (MAS) framework designed to evaluate and enhance the ethical decision-making capabilities of Large Language Models (LLMs) under severe crisis conditions. 
 
-The framework serves as a modular research testbed for simulating high-stakes dilemmas (e.g., infrastructure collapse, biocontainment breaches) and exploring how multi-agent configurations and knowledge-grounded counterfactual reflection can mitigate LLM hallucination and ideological drift.
+The framework serves as a modular research testbed for simulating high-stakes dilemmas (e.g., infrastructure collapse, biocontainment breaches) and exploring how multi-agent configurations, knowledge-grounded counterfactual reflection, and active provenance verification can mitigate LLM hallucination and ideological drift.
+
+This codebase directly supports the findings of three interconnected scientific articles, reflecting a progression from team-based philosophical debates to structured, tripartite policy standoffs with embedded guardrails.
+
+## Associated Publications
+* **Article 1:** *Heterogeneous Debate Engine: Identity-Grounded Cognitive Architecture for Resilient LLM-Based Ethical Tutoring* (Proceedings of ACIIDS 2026).
+* **Article 2:** *Decoupling Thought from Speech: Knowledge-Grounded Counterfactual Reasoning for Resilient Multi-Agent Argumentation* (Proceedings of KES 2026).
+* **Article 3:** *Towards Mitigating Fabricated Consensus: The Active Provenance Gate for Multi-Agent Debate Synthesis*.
 
 ## Modular Architecture
 The repository has been strictly refactored into isolated domain modules to support reproducible experiments across different research phases:
 
 * `src/common/` - Shared foundational infrastructure, including LLM API abstractions, `tenacity`-backed retry mechanisms, core moral ontologies, and base identity representations.
-* `src/hde/` - Core engine for the Heterogeneous Debate Engine, orchestrating multi-agent team alignment, speech queues, and the Socratic interactive tutor.
-* `src/kg_cfr/` - Implementation of the Tripartite Standoff architecture. Houses the central System Dispatcher for stochastic environmental shocks (S1–S4), policy modules (EOH, IVC, SHM), and the private Strategy Buffer decoupling planning from speech.
-* `src/apg/` - Active Provenance Gate (APG), a post-debate proposer-validator loop that checks whether the final operational synthesis is grounded in the available debate history, private traces, and retrieved axioms.
+* `src/hde/` - (**Article 1**) Core engine for the Heterogeneous Debate Engine, orchestrating multi-agent team alignment, speech queues, and the Socratic interactive tutor.
+* `src/kg_cfr/` - (**Article 2**) Implementation of the Tripartite Standoff architecture. Houses the central System Dispatcher for stochastic environmental shocks (S1–S4), policy modules (EOH, IVC, SHM), and the private Strategy Buffer decoupling planning from speech.
+* `src/apg/` - (**Article 3**) Active Provenance Gate (APG), a post-debate proposer-validator loop that checks whether the final operational synthesis is grounded in the available debate history, private traces, and retrieved axioms.
 * `scripts/` - Extensive suite of experiment runners (e.g., overnight batch processing) and analytical scripts for extracting conceptual coverage and identity drift metrics from E2E JSON logs.
 * `tests/` - Comprehensive test suite divided into `unit` and `integration` tests to validate module integrity offline.
 
@@ -54,7 +61,7 @@ Note: The embedding pipeline features automatic hardware detection. It will nati
 
 The main entry point `main.py` orchestrates execution across all three experimental modes (`baseline`, `aegis`, and `legacy`).
 
-### 1. Tripartite Standoff (AEGIS Mode)
+### 1. Tripartite Standoff (AEGIS Mode - Articles 2 and 3)
 Runs the full policy module debate with environmental shocks and configurable Counterfactual Reflection (CFR). When an LLM is available, the run also executes the APG Phase 4 synthesis and provenance verification loop:
 
 - **Knowledge-Grounded CFR (Full Pipeline):**
