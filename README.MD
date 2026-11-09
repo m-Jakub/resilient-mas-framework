@@ -5,6 +5,12 @@
 ![Embeddings](https://img.shields.io/badge/embeddings-HuggingFace%20BGE-green.svg)
 ![LLM](https://img.shields.io/badge/LLM-Google%20Gemini-blueviolet.svg)
 
+<p align="center">
+  <img src="docs/images/drau_tripartite_standoff.svg" width="850" alt="Tripartite standoff: three doctrinally grounded agents (EOH, IVC, SHM) debate a shared policy draft, grounded in an Identity-RAG knowledge base, while a LangGraph System Dispatcher injects environmental shocks at turns 3-4 and 5-6.">
+  <br>
+  <sub>Three doctrinally grounded agents debate a shared policy draft under shocks injected by a LangGraph dispatcher. Figure from Article 2 (KES 2026).</sub>
+</p>
+
 ## Overview
 This repository contains the official implementation of a Resilient Multi-Agent System (MAS) framework designed to evaluate and enhance the ethical decision-making capabilities of Large Language Models (LLMs) under severe crisis conditions. 
 
@@ -16,6 +22,43 @@ This codebase directly supports the findings of three interconnected scientific 
 * **Article 1:** *Heterogeneous Debate Engine: Identity-Grounded Cognitive Architecture for Resilient LLM-Based Ethical Tutoring* (Proceedings of ACIIDS 2026).
 * **Article 2:** *Decoupling Thought from Speech: Knowledge-Grounded Counterfactual Reasoning for Resilient Multi-Agent Argumentation* (Proceedings of KES 2026).
 * **Article 3:** *Towards Mitigating Fabricated Consensus: The Active Provenance Gate for Multi-Agent Debate Synthesis*.
+
+## Architecture at a Glance
+
+### Article 1: Heterogeneous Debate Engine (`src/hde/`)
+Philosopher agents keep their doctrinal identity through Identity-Grounded RAG and target opponents' weaknesses through a heuristic Theory of Mind (ToM-Lite). In the pilot study, the heterogeneous configuration produced the largest gain in students' Argument Complexity Score (ΔACS = +2.20 vs. +0.20 to +0.40 for single-agent baselines).
+
+<p align="center">
+  <img src="docs/images/hde_debate_example.png" width="850" alt="Illustrative debate fragment: Kant and Mill argue the trolley problem; system annotations show ID-RAG sources, a ToM-Lite detected weakness, and a triggered doctrinal boundary.">
+  <br>
+  <sub>Illustrative debate fragment with ID-RAG and ToM-Lite annotations. Figure from Article 1 (ACIIDS 2026).</sub>
+</p>
+
+### Article 2: Knowledge-Grounded Counterfactual Reasoning (`src/kg_cfr/`)
+KG-CFR decouples *thinking* from *speaking*: a private planner simulates the opponent's worst-case counter-argument, retrieves grounding axioms from ChromaDB and emits a strategy JSON. That strategy is injected at the end of the executor's context window to exploit recency bias.
+
+<p align="center">
+  <img src="docs/images/kg_cfr_planner_executor.svg" width="900" alt="KG-CFR dual-stage architecture: Planner private buffer (GenCF, RetrieveCF with stop-word filter and ChromaDB, EvalCF) produces a strategy JSON that is injected at the terminal position of the Executor's context window.">
+  <br>
+  <sub>The private planning buffer is structurally isolated from the public execution layer. Figure from Article 2 (KES 2026).</sub>
+</p>
+
+Across 270 debates (3 crisis scenarios × 3 conditions × 30 runs), severe post-shock quality drops (PRR) fell from 75/90 runs in the baseline to **4/90** under `kg_cfr_full`, and the overall judge score rose from 0.694 to 0.822.
+
+<p align="center">
+  <img src="docs/images/kg_cfr_resilience_summary.png" width="620" alt="Bar chart of PRR, ACA, DIS and CC for No-CFR baseline, CFR without KG, and full KG-CFR; PRR drops from about 0.83 to 0.04 under full KG-CFR.">
+  <br>
+  <sub>Resilience summary across conditions; lower PRR means fewer severe post-shock degradations. Figure from Article 2 (KES 2026).</sub>
+</p>
+
+### Article 3: Active Provenance Gate (`src/apg/`)
+APG is a post-debate LangGraph loop: a cost-efficient Proposer drafts the synthesis, a stronger NLI Auditor checks each sentence against the closed evidentiary corpus, and anything below Provenance Fidelity 0.95 is repaired (up to 3 iterations) or replaced by an explicit Divergence Report. Bounded self-healing raised average Provenance Fidelity from 0.183–0.288 to 0.586–0.617.
+
+<p align="center">
+  <img src="docs/images/apg_state_machine.svg" width="480" alt="APG state machine: public chat, aggregated axioms and private traces form a closed corpus; Executive Proposer drafts a synthesis; Global Auditor returns provenance fidelity; PF >= 0.95 publishes, otherwise a fallback node retries up to 3 times before emitting a structured Divergence Report.">
+  <br>
+  <sub>APG state machine. Figure adapted from Article 3 (ICTAI 2026).</sub>
+</p>
 
 ## Modular Architecture
 The repository has been strictly refactored into isolated domain modules to support reproducible experiments across different research phases:

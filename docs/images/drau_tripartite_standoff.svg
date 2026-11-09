@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-136.19 -0.632 919.997 562" width="919.997px" height="562px" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <marker id="arrow-data" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#CBD5E1"/>
+    </marker>
+    <filter id="shadow-soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="dbGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <filter id="shadow-sharp" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+    <filter id="glow-red" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <marker id="arrow-shock" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#EF4444"/>
+    </marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/>
+    </marker>
+    <radialGradient id="debateGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F8FAFC"/>
+    </radialGradient>
+    <bx:export>
+      <bx:file format="pdf">
+        <bx:page/>
+      </bx:file>
+    </bx:export>
+  </defs>
+  <rect x="-136.19" y="-0.632" width="919.997" height="562" fill="#ffffff"/>
+  <rect x="-126.41" y="9.152" width="608.612" height="445.44" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2" style="stroke-width: 2;"/>
+  <path d="M -126.41 57.569 L 482.203 57.569" fill="none" stroke="#E2E8F0" stroke-width="2" style="stroke-width: 2;"/>
+  <text x="-111.19" y="31.368" class="title" style="white-space: pre; fill: rgb(71, 85, 105); font-family: system-ui, -apple-system, sans-serif; font-weight: 600; perspective-origin: 157.484px 36px; stroke-width: 1;" transform="matrix(0.981631, 0, 0, 0.968347, 7.282276, 9.76397)">DRAU Dynamic Testbed <tspan class="subtitle" style="fill: rgb(100, 116, 139); font-size: 15px; font-weight: 400; line-height: 24px; word-spacing: 0px; stroke-width: 1;">(Scenario: AEGIS Cascade)</tspan></text>
+  <rect x="521.467" y="9.152" width="255.224" height="445.44" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" style="stroke-width: 2;"/>
+  <path d="M 521.467 57.569 L 776.691 57.569" fill="none" stroke="#E2E8F0" stroke-width="2" style="stroke-width: 2;"/>
+  <text x="548.807" y="31.368" class="title" style="white-space: pre; fill: rgb(71, 85, 105); font-family: system-ui, -apple-system, sans-serif; font-weight: 600; stroke-width: 1;" transform="matrix(0.981631, 0, 0, 0.968347, 7.282276, 9.76397)">System Dispatcher <tspan class="subtitle" style="fill: rgb(100, 116, 139); font-size: 15px; font-weight: 400; line-height: 24px; word-spacing: 0px; stroke-width: 1;">(LangGraph)</tspan></text>
+  <path d="M 158.264 488.483 C 60.101 488.483 11.02 435.225 11.02 391.649" class="routing-line" marker-end="url(#arrow-data)" style="fill: none; stroke: rgb(203, 213, 225); stroke-linecap: round; stroke-width: 2.5;"/>
+  <path d="M 197.529 488.483 C 295.692 488.483 344.774 435.225 344.774 391.649" class="routing-line" marker-end="url(#arrow-data)" style="fill: none; stroke: rgb(203, 213, 225); stroke-linecap: round; stroke-width: 2.5;"/>
+  <path d="M 177.897 483.642 C 177.897 386.808 104.274 309.339 104.274 183.455" class="routing-line" marker-end="url(#arrow-data)" style="fill: none; stroke: rgb(203, 213, 225); stroke-linecap: round; stroke-width: 2.5;"/>
+  <g filter="url(#shadow-soft)" transform="matrix(0.981631, 0, 0, 0.968347, -165.674133, -29.581867)" style="">
+    <path d="M 210 550 L 210 580 A 140 22 0 0 0 490 580 L 490 550 Z" fill="url(#dbGrad)" stroke="#94A3B8" stroke-width="2"/>
+    <ellipse cx="350" cy="550" rx="140" ry="22" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2"/>
+  </g>
+  <text x="175.794" y="505.422" text-anchor="middle" font-size="14" font-weight="700" fill="#334155" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif; stroke-width: 1; font-size: 14px;" transform="matrix(0.981631, 0, 0, 0.968347, 7.282276, 9.76397)">External KG</text>
+  <text x="173.807" y="522.428" text-anchor="middle" font-size="12" font-weight="500" fill="#64748B" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif; stroke-width: 1; font-size: 12px;" transform="matrix(0.981631, 0, 0, 0.968347, 7.282276, 9.76397)">(Identity-RAG/ChromaDB)</text>
+  <line x1="649.079" y1="86.619" x2="649.079" y2="396.491" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round" style="stroke-width: 3;"/>
+  <g transform="matrix(0.981631, 0, 0, 0.968347, 560.732727, 105.986694)" style="">
+    <rect x="0" y="0" width="180" height="44" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2"/>
+    <circle cx="20" cy="22" r="5" fill="#94A3B8"/>
+    <text x="40" y="27" font-size="13" font-weight="600" fill="#64748B" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif;">T1-T2 (Status Quo)</text>
+  </g>
+  <g transform="matrix(0.981631, 0, 0, 0.968347, 560.732727, 210.568161)" style="">
+    <rect x="0" y="0" width="180" height="44" rx="8" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="2" filter="url(#shadow-sharp)"/>
+    <circle cx="20" cy="22" r="5" fill="#EF4444" filter="url(#glow-red)"/>
+    <text x="40" y="27" font-size="13" font-weight="700" fill="#EF4444" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif;">T3-T4 [Shock S1]</text>
+  </g>
+  <g transform="matrix(0.981631, 0, 0, 0.968347, 560.732727, 317.086304)" style="">
+    <rect x="0" y="0" width="180" height="44" rx="8" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="2" filter="url(#shadow-sharp)"/>
+    <circle cx="20" cy="22" r="5" fill="#EF4444" filter="url(#glow-red)"/>
+    <text x="40" y="27" font-size="13" font-weight="700" fill="#EF4444" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif;">T5-T6 [Shock S2]</text>
+  </g>
+  <line x1="560.732" y1="231.872" x2="236.795" y2="231.872" stroke="#EF4444" stroke-width="2.5" stroke-dasharray="8,5" marker-end="url(#arrow-shock)" style="stroke-width: 2.5;"/>
+  <path d="M 560.732 338.39 C 492.019 338.39 472.386 256.081 231.887 251.239" fill="none" stroke="#EF4444" stroke-width="2.5" stroke-dasharray="8,5" marker-end="url(#arrow-shock)" style="stroke-width: 2.5;"/>
+  <line x1="158.264" y1="193.138" x2="168.08" y2="185.391" stroke="#64748B" stroke-width="2.5" stroke-dasharray="4,4" marker-end="url(#arrow-gray)" style="stroke-width: 2.5;"/>
+  <line x1="109.182" y1="299.656" x2="138.631" y2="265.764" stroke="#64748B" stroke-width="2.5" stroke-dasharray="4,4" marker-end="url(#arrow-gray)" style="stroke-width: 2.5;"/>
+  <line x1="246.611" y1="299.656" x2="217.162" y2="265.764" stroke="#64748B" stroke-width="2.5" stroke-dasharray="4,4" marker-end="url(#arrow-gray)" style="stroke-width: 2.5;"/>
+  <g transform="matrix(0.981631, 0, 0, 0.968347, 177.896652, 227.03006)" filter="url(#shadow-sharp)" style="">
+    <circle cx="0" cy="0" r="46" fill="url(#debateGrad)" stroke="#E2E8F0" stroke-width="4"/>
+    <circle cx="0" cy="0" r="38" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <text x="-1.486" y="-10.935" text-anchor="middle" font-size="13" font-weight="800" fill="#1E293B" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif; font-size: 13px;" transform="matrix(0.818049, 0, 0, 0.745002, 2.21553, -1.393001)">Policy Draft</text>
+    <text x="-0.991" y="3.579" text-anchor="middle" font-size="10" font-weight="600" fill="#64748B" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif; font-size: 10px;">Debate Arena</text>
+    <circle cx="0" cy="-26" r="2.5" fill="#3B82F6"/>
+    <circle cx="-22" cy="14" r="2.5" fill="#EF4444"/>
+    <circle cx="22" cy="14" r="2.5" fill="#F59E0B"/>
+  </g>
+  <g transform="matrix(0.981631, 0, 0, 0.968347, 69.917252, 67.252823)" style="">
+    <rect x="0" y="0" width="220" height="110" rx="12" fill="#EFF6FF" stroke="#93C5FD" stroke-width="2" filter="url(#shadow-soft)"/>
+    <g transform="translate(110, 36)">
+      <path d="M -16 -12 L 16 -12 C 18 -12 20 -10 20 -8 L 20 10 C 20 12 18 14 16 14 L -16 14 C -18 14 -20 12 -20 10 L -20 -8 C -20 -10 -18 -12 -16 -12 Z" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+      <line x1="0" y1="-12" x2="0" y2="-20" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="0" cy="-22" r="3" fill="#2563EB"/>
+      <circle cx="-6" cy="-2" r="2.5" fill="#2563EB"/>
+      <circle cx="6" cy="-2" r="2.5" fill="#2563EB"/>
+      <line x1="-5" y1="6" x2="5" y2="6" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+      <line x1="-20" y1="1" x2="-24" y2="1" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+      <line x1="20" y1="1" x2="24" y2="1" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <text x="110" y="78" text-anchor="middle" class="node-title" fill="#1D4ED8" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; line-height: 22.4px;">IVC - Protector</text>
+    <text x="110" y="94" text-anchor="middle" class="node-desc" fill="#2563EB" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif; font-size: 11px; font-weight: 600; line-height: 17.6px;">Axiomatic Node Protection</text>
+  </g>
+  <g transform="matrix(0.981631, 0, 0, 0.968347, -96.959984, 289.972626)" style="">
+    <rect x="0" y="0" width="220" height="110" rx="12" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="2" filter="url(#shadow-soft)"/>
+    <g transform="translate(110, 36)">
+      <path d="M -16 -12 L 16 -12 C 18 -12 20 -10 20 -8 L 20 10 C 20 12 18 14 16 14 L -16 14 C -18 14 -20 12 -20 10 L -20 -8 C -20 -10 -18 -12 -16 -12 Z" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/>
+      <line x1="0" y1="-12" x2="0" y2="-20" stroke="#DC2626" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="0" cy="-22" r="3" fill="#DC2626"/>
+      <path d="M -9 -5 L -4 -1" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M 9 -5 L 4 -1" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="-6" cy="-1" r="2" fill="#DC2626"/>
+      <circle cx="6" cy="-1" r="2" fill="#DC2626"/>
+      <line x1="-4" y1="6" x2="4" y2="6" stroke="#DC2626" stroke-width="2" stroke-linecap="round"/>
+      <line x1="-20" y1="1" x2="-24" y2="1" stroke="#DC2626" stroke-width="2" stroke-linecap="round"/>
+      <line x1="20" y1="1" x2="24" y2="1" stroke="#DC2626" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <text x="110" y="78" text-anchor="middle" class="node-title" fill="#B91C1C" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; line-height: 22.4px;">EOH - Optimizer</text>
+    <text x="110" y="94" text-anchor="middle" class="node-desc" fill="#DC2626" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif; font-size: 11px; font-weight: 600; line-height: 17.6px;">Core Survival Utility</text>
+  </g>
+  <g transform="matrix(0.981631, 0, 0, 0.968347, 236.79451, 289.972626)" style="">
+    <rect x="0" y="0" width="220" height="110" rx="12" fill="#FFFBEB" stroke="#FDE047" stroke-width="2" filter="url(#shadow-soft)"/>
+    <g transform="translate(110, 36)">
+      <path d="M -16 -12 L 16 -12 C 18 -12 20 -10 20 -8 L 20 10 C 20 12 18 14 16 14 L -16 14 C -18 14 -20 12 -20 10 L -20 -8 C -20 -10 -18 -12 -16 -12 Z" fill="#FFFFFF" stroke="#D97706" stroke-width="2"/>
+      <line x1="0" y1="-12" x2="0" y2="-20" stroke="#D97706" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="0" cy="-22" r="3" fill="#D97706"/>
+      <line x1="-8" y1="-2" x2="-4" y2="-2" stroke="#D97706" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="8" y1="-2" x2="4" y2="-2" stroke="#D97706" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="-5" y1="6" x2="5" y2="6" stroke="#D97706" stroke-width="2" stroke-linecap="round"/>
+      <line x1="-20" y1="1" x2="-24" y2="1" stroke="#D97706" stroke-width="2" stroke-linecap="round"/>
+      <line x1="20" y1="1" x2="24" y2="1" stroke="#D97706" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <text x="110" y="78" text-anchor="middle" class="node-title" fill="#B45309" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; line-height: 22.4px;">SHM - Hierarch</text>
+    <text x="110" y="94" text-anchor="middle" class="node-desc" fill="#D97706" style="white-space: pre; font-family: system-ui, -apple-system, sans-serif; font-size: 11px; font-weight: 600; line-height: 17.6px;">Systemic Order Priority</text>
+  </g>
+</svg>

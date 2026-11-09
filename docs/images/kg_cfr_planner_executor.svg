@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-824.11 -149.78 1300.84 350" width="1300.84px" height="350px">
+  <defs>
+    <filter id="shadow-sm" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.1"/>
+    </filter>
+    <marker id="arrow-dark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+    <filter id="shadow-md" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/>
+    </marker>
+  </defs>
+  <rect x="-824.11" y="-149.78" width="1300.84" height="350" fill="#ffffff"/>
+  <rect width="1300.84" height="350" fill="#ffffff" x="-824.11" y="-149.78"/>
+  <rect x="-804.11" y="-9.647" width="120" height="70" rx="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="-744.11" y="20.353" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#334155" style="white-space: pre;">Input Context</text>
+  <text x="-744.11" y="40.353" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b" style="white-space: pre;">(Current Round data)</text>
+  <line x1="-684.11" y1="25.353" x2="-644.11" y2="25.353" stroke="#334155" stroke-width="2" marker-end="url(#arrow-dark)"/>
+  <rect x="-634.11" y="-124.65" width="580" height="300" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" stroke-dasharray="8,4"/>
+  <rect x="-634.11" y="-124.65" width="580" height="40" rx="12" fill="#3b82f6"/>
+  <rect x="-634.11" y="-104.65" width="580" height="20" fill="#3b82f6"/>
+  <text x="-344.11" y="-99.65" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff" style="white-space: pre;">The Planner - Private Buffer (KG-CFR)</text>
+  <rect x="-614.11" y="-14.647" width="150" height="80" rx="8" fill="#ffffff" stroke="#60a5fa" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="-539.11" y="10.353" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e40af" style="white-space: pre;">GenCF</text>
+  <text x="-539.11" y="30.353" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#475569" style="white-space: pre;">Simulate Hypothesis</text>
+  <text x="-539.11" y="45.353" font-family="Arial, sans-serif" font-size="10" font-style="italic" text-anchor="middle" fill="#64748b" style="white-space: pre;">(LLM Generation)</text>
+  <line x1="-464.11" y1="25.353" x2="-424.11" y2="25.353" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <rect x="-414.11" y="-84.65" width="170" height="235" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="-329.11" y="-59.64" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#047857" style="white-space: pre;">RetrieveCF</text>
+  <text x="-329.11" y="-44.64" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#475569" style="white-space: pre;">Robust Retrieval</text>
+  <rect x="-394.11" y="-29.647" width="130" height="35" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="-329.11" y="-8.147" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#334155" style="white-space: pre;">1. Query Formulation</text>
+  <line x1="-329.11" y1="5.353" x2="-329.11" y2="15.353" stroke="#10b981" stroke-width="1.5" marker-end="url(#arrow-dark)"/>
+  <polygon points="-349.11 15.353 -309.11 15.353 -324.11 27.353 -324.11 35.353 -334.11 35.353 -334.11 27.353" fill="#fef08a" stroke="#ca8a04" stroke-width="1.5"/>
+  <text x="-329.11" y="47.353" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#b45309" style="white-space: pre;">Stop-Word Filter</text>
+  <line x1="-329.11" y1="50.353" x2="-329.11" y2="60.353" stroke="#10b981" stroke-width="1.5" marker-end="url(#arrow-dark)"/>
+  <ellipse cx="-329.11" cy="65.0" rx="25" ry="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="-354.11" y="65.0" width="50" height="25" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1.5" stroke-dasharray="0, 50, 25, 50, 25"/>
+  <ellipse cx="-329.11" cy="90.0" rx="25" ry="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="-329.11" y="82.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#4f46e5" style="white-space: pre;" transform="matrix(0.763276, 0, 0, 0.789759, -78.222023, 13.205466)">ChromaDB</text>
+  <line x1="-329.11" y1="96.0" x2="-329.11" y2="105.0" stroke="#10b981" stroke-width="1.5" marker-end="url(#arrow-dark)"/>
+  <rect x="-394.11" y="105.0" width="130" height="35" rx="4" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="-329.11" y="127.5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#15803d" style="white-space: pre;">2. Retrieved Axioms</text>
+  <line x1="-244.11" y1="25.353" x2="-214.11" y2="25.353" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <rect x="-204.11" y="-14.647" width="130" height="80" rx="8" fill="#ffffff" stroke="#f59e0b" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="-139.11" y="10.353" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#b45309" style="white-space: pre;">EvalCF</text>
+  <text x="-139.11" y="30.353" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#475569" style="white-space: pre;">Synthesize Strategy</text>
+  <text x="-139.11" y="45.353" font-family="Arial, sans-serif" font-size="10" font-style="italic" text-anchor="middle" fill="#64748b" style="white-space: pre;">(JSON output)</text>
+  <path d="M -74.108 25.353 L 45.892 25.353" fill="none" stroke="#64748b" stroke-width="3" stroke-dasharray="6,4" marker-end="url(#arrow-dark)"/>
+  <text x="-14" y="16" text-anchor="middle" font-weight="bold" font-size="11" font-family="Arial, sans-serif" fill="#334155" style="white-space: pre;" transform="matrix(0.955972, 0, 0, 0.925, 1.228789, 0.462167)">Private Strategy</text>
+  <text x="-14" y="44" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#334155" style="white-space: pre;" transform="matrix(0.932699, 0, 0, 0.950557, 0.133784, 1.68556)">JSON Package</text>
+  <rect x="65.892" y="-124.65" width="340" height="300" rx="12" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <rect x="65.892" y="-124.65" width="340" height="40" rx="12" fill="#22c55e"/>
+  <rect x="65.892" y="-104.65" width="340" height="20" fill="#22c55e"/>
+  <text x="235.892" y="-99.65" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff" style="white-space: pre;">The Executor - Context Injection</text>
+  <rect x="85.892" y="-74.65" width="160" height="240" fill="#ffffff" stroke="#94a3b8" stroke-width="2" filter="url(#shadow-md)"/>
+  <rect x="85.892" y="-74.65" width="160" height="25" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+  <text x="165.892" y="-57.0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#334155" style="white-space: pre;">Context Window (v5 Agent)</text>
+  <rect x="95.892" y="-44.65" width="140" height="35" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="165.892" y="-21.0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#64748b" style="white-space: pre;">1. System Prompt</text>
+  <rect x="95.892" y="0" width="140" height="35" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="165.892" y="23.0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#64748b" style="white-space: pre;">2. Guidelines</text>
+  <rect x="95.892" y="44.65" width="140" height="35" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="165.892" y="67.0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#64748b" style="white-space: pre;">3. History</text>
+  <circle cx="165.892" cy="92.0" r="3" fill="#cbd5e1"/>
+  <circle cx="165.892" cy="100.0" r="3" fill="#cbd5e1"/>
+  <circle cx="165.892" cy="108.0" r="3" fill="#cbd5e1"/>
+  <rect x="90.892" y="115.0" width="150" height="45" rx="6" fill="#fef2f2" stroke="#ef4444" stroke-width="3"/>
+  <text x="165.892" y="133.0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#b91c1c" style="white-space: pre;">[INJECTION POINT]</text>
+  <text x="165.892" y="151.0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#dc2626" style="white-space: pre;">Strategy JSON</text>
+  <path d="M 25.892 25.353 L 25.892 137.5" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4,4"/>
+  <path d="M 25.892 137.5 L 80.892 137.5" fill="none" stroke="#ef4444" stroke-width="4" marker-end="url(#arrow-red)"/>
+  <rect x="265.891" y="97.5" width="125" height="80" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="2" filter="url(#shadow-sm)"/>
+  <polygon points="265.891 145.0 250.892 137.5 265.891 130.0" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <line x1="265.891" y1="131.0" x2="265.891" y2="144.0" stroke="#fffbeb" stroke-width="3"/>
+  <text x="328.391" y="115.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#92400e" style="white-space: pre;">Leverages</text>
+  <text x="328.391" y="130.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#92400e" style="white-space: pre;">Recency Bias:</text>
+  <text x="328.391" y="150.0" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#451a03" style="white-space: pre;">Plan is prioritized</text>
+  <text x="328.391" y="165.0" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#451a03" style="white-space: pre;">over early instructions</text>
+</svg>
