@@ -19,9 +19,9 @@ The framework serves as a modular research testbed for simulating high-stakes di
 This codebase directly supports the findings of three interconnected scientific articles, reflecting a progression from team-based philosophical debates to structured, tripartite policy standoffs with embedded guardrails.
 
 ## Associated Publications
-* **Article 1:** *Heterogeneous Debate Engine: Identity-Grounded Cognitive Architecture for Resilient LLM-Based Ethical Tutoring* (Proceedings of ACIIDS 2026).
-* **Article 2:** *Decoupling Thought from Speech: Knowledge-Grounded Counterfactual Reasoning for Resilient Multi-Agent Argumentation* (Proceedings of KES 2026).
-* **Article 3:** *Towards Mitigating Fabricated Consensus: The Active Provenance Gate for Multi-Agent Debate Synthesis*.
+* **Article 1:** *Heterogeneous Debate Engine: Identity-Grounded Cognitive Architecture for Resilient LLM-Based Ethical Tutoring*. In ACIIDS 2026, Springer LNCS vol. 16530, pp. 124–138. [arXiv:2603.27404](https://arxiv.org/abs/2603.27404)
+* **Article 2:** *Decoupling Thought from Speech: Knowledge-Grounded Counterfactual Reasoning for Resilient Multi-Agent Argumentation*. Accepted to KES 2026, Procedia Computer Science (Elsevier).
+* **Article 3:** *Towards Mitigating Fabricated Consensus: The Active Provenance Gate for Multi-Agent Debate Synthesis*. Accepted to the 38th IEEE ICTAI 2026. [arXiv:2609.31422](https://arxiv.org/abs/2609.31422)
 
 ## Architecture at a Glance
 
